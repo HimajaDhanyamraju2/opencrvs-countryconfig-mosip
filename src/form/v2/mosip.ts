@@ -59,28 +59,28 @@ const BIRTH_REGISTRATION_MOSIP_CONSTRAINTS = [
 ]
 
 const DEATH_REGISTRATION_MOSIP_CONSTRAINTS = [
-  {
-    fieldId: 'spouse.verified',
-    expectedValues: ['verified', 'authenticated'],
-    rejectReason: 'Spouse identity not verified or authenticated',
-    validator: (value: any, declaration?: Record<string, any>) => {
-      if (declaration?.['informant.relation'] === 'SPOUSE') {
-        return ['verified', 'authenticated'].includes(value)
-      }
-      return true // Skip this constraint if not spouse
-    }
-  },
-  {
-    fieldId: 'informant.verified',
-    expectedValues: ['verified', 'authenticated'],
-    rejectReason: 'Informant identity not verified or authenticated',
-    validator: (value: any, declaration?: Record<string, any>) => {
-      if (declaration?.['informant.relation'] !== 'SPOUSE') {
-        return ['verified', 'authenticated'].includes(value)
-      }
-      return true // Skip this constraint if spouse
-    }
-  }
+   {
+  //   fieldId: 'spouse.verified',
+  //   expectedValues: ['verified', 'authenticated'],
+  //   rejectReason: 'Spouse identity not verified or authenticated',
+  //   validator: (value: any, declaration?: Record<string, any>) => {
+  //     if (declaration?.['informant.relation'] === 'SPOUSE') {
+  //       return ['verified', 'authenticated'].includes(value)
+  //     }
+  //     return true // Skip this constraint if not spouse
+  //   }
+  // },
+  // {
+  //   fieldId: 'informant.verified',
+  //   expectedValues: ['verified', 'authenticated'],
+  //   rejectReason: 'Informant identity not verified or authenticated',
+  //   validator: (value: any, declaration?: Record<string, any>) => {
+  //     if (declaration?.['informant.relation'] !== 'SPOUSE') {
+  //       return ['verified', 'authenticated'].includes(value)
+  //     }
+  //     return true // Skip this constraint if spouse
+  //   }
+   }
 ]
 
 const validateConstraints = (
