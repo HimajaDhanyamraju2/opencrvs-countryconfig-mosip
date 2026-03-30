@@ -58,21 +58,24 @@ type AddressFieldValue = {
 
 /**
  * Extracts MOSIP-required address fields from an OpenCRVS address value.
- * - administrativeArea is the leaf-level location ID (zone/district) — used as
- *   a fallback for province/region/zone since full hierarchy traversal would
- *   require an API call. Adjust mappings once location resolution is in place.
+ * All address fields are simpleType (language-value arrays) in the MOSIP schema.
+ * - administrativeArea is the leaf-level location ID used as a fallback for
+ *   province/region/zone. Adjust once full location hierarchy resolution is in place.
  */
 const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
-  addressLine1:
+  addressLine1: toMosipLangValue(
     address?.streetLevelDetails?.street ??
-    address?.streetLevelDetails?.town ??
-    '-',
-  addressLine2: address?.streetLevelDetails?.residentialArea ?? '',
-  addressLine3: '',
-  city: address?.streetLevelDetails?.town ?? '-',
-  province: address?.administrativeArea ?? '-',
-  region: address?.administrativeArea ?? '-',
-  zone: address?.administrativeArea ?? '-'
+      address?.streetLevelDetails?.town ??
+      'Not provided'
+  ),
+  addressLine2: toMosipLangValue(
+    address?.streetLevelDetails?.residentialArea ?? 'Not provided'
+  ),
+  addressLine3: toMosipLangValue('Not provided'),
+  city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Not provided'),
+  province: toMosipLangValue(address?.administrativeArea ?? 'Not provided'),
+  region: toMosipLangValue(address?.administrativeArea ?? 'Not provided'),
+  zone: toMosipLangValue(address?.administrativeArea ?? 'Not provided')
 })
 
 /**
@@ -279,7 +282,7 @@ export async function onMosipBirthRegisterHandler(
         ),
         ...extractMosipAddress(birthAddress),
         email: (declaration['informant.email'] as string | undefined) ?? '',
-        phone: (declaration['informant.phoneNo'] as string | undefined) ?? ''
+        phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
         // NOTE: individualBiometrics and proofOfIdentity are biometric/document
         // types in the MOSIP ID schema and cannot be sent via requestFields.
         // Remove them from the ID schema's `required` array in MOSIP masterdata
@@ -372,7 +375,7 @@ export async function onMosipDeathRegisterHandler(
         nationalIdNumber: declaration['deceased.nid'] as string | undefined,
         ...extractMosipAddress(deathAddress),
         email: (declaration['informant.email'] as string | undefined) ?? '',
-        phone: (declaration['informant.phoneNo'] as string | undefined) ?? ''
+        phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
         // NOTE: individualBiometrics and proofOfIdentity are biometric/document
         // types in the MOSIP ID schema and cannot be sent via requestFields.
         // Remove them from the ID schema's `required` array in MOSIP masterdata
