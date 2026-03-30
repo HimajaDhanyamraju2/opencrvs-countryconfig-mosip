@@ -84,7 +84,7 @@ const CRVS_META_INFO = {
     { label: 'officerOTPAuthentication', value: 'false' }
   ]),
   metaData: JSON.stringify([
-    { label: 'centerId', value: '10011' },
+    { label: 'centerId', value: '10152' },
     { label: 'machineId', value: '10004' },
     { label: 'registrationType', value: 'CRVS_NEW' }
   ]),
@@ -95,16 +95,16 @@ const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
   addressLine1: toMosipLangValue(
     address?.streetLevelDetails?.street ??
       address?.streetLevelDetails?.town ??
-      'Not provided'
+      'Plot 4522'
   ),
   addressLine2: toMosipLangValue(
-    address?.streetLevelDetails?.residentialArea ?? 'Not provided'
+    address?.streetLevelDetails?.residentialArea ?? 'Off Mumbwa Road'
   ),
-  addressLine3: toMosipLangValue('Not provided'),
-  city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Not provided'),
-  province: toMosipLangValue(address?.administrativeArea ?? 'Not provided'),
-  region: toMosipLangValue(address?.administrativeArea ?? 'Not provided'),
-  zone: toMosipLangValue(address?.administrativeArea ?? 'Not provided')
+  addressLine3: toMosipLangValue('Longacres'),
+  city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Lusaka'),
+  province: toMosipLangValue(address?.administrativeArea ?? 'Lusaka Province'),
+  region: toMosipLangValue(address?.administrativeArea ?? 'Lusaka District'),
+  zone: toMosipLangValue(address?.administrativeArea ?? 'Zambia')
 })
 
 /**
