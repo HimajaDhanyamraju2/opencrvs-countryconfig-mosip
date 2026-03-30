@@ -62,6 +62,35 @@ type AddressFieldValue = {
  * - administrativeArea is the leaf-level location ID used as a fallback for
  *   province/region/zone. Adjust once full location hierarchy resolution is in place.
  */
+/**
+ * Minimal metaInfo required by MOSIP's MetaInfoTagGenerator.
+ * operationsData must contain officerId and supervisorId labels.
+ * metaData must contain centerId label.
+ * capturedRegisteredDevices can be empty — missing device types fall back to notAvailableTagValue.
+ */
+const CRVS_META_INFO = {
+  operationsData: JSON.stringify([
+    { label: 'officerId', value: 'crvsuser' },
+    { label: 'officerBiometricFileName', value: null },
+    { label: 'supervisorId', value: 'crvsuser' },
+    { label: 'supervisorBiometricFileName', value: null },
+    { label: 'supervisorPassword', value: 'true' },
+    { label: 'supervisorPIN', value: null },
+    { label: 'supervisorOTP', value: 'false' },
+    { label: 'supervisorOTPAuthentication', value: 'false' },
+    { label: 'officerPassword', value: 'true' },
+    { label: 'officerPIN', value: null },
+    { label: 'officerOTP', value: 'false' },
+    { label: 'officerOTPAuthentication', value: 'false' }
+  ]),
+  metaData: JSON.stringify([
+    { label: 'centerId', value: '10011' },
+    { label: 'machineId', value: '10004' },
+    { label: 'registrationType', value: 'CRVS_NEW' }
+  ]),
+  capturedRegisteredDevices: JSON.stringify([])
+}
+
 const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
   addressLine1: toMosipLangValue(
     address?.streetLevelDetails?.street ??
@@ -283,17 +312,13 @@ export async function onMosipBirthRegisterHandler(
         ...extractMosipAddress(birthAddress),
         email: (declaration['informant.email'] as string | undefined) ?? '',
         phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
-        // NOTE: individualBiometrics and proofOfIdentity are biometric/document
-        // types in the MOSIP ID schema and cannot be sent via requestFields.
-        // Remove them from the ID schema's `required` array in MOSIP masterdata
-        // if they should not be mandatory for CRVS_NEW.
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
         recipientFullName: '@TODO',
         recipientPhone: '@TODO'
       },
-      metaInfo: {},
+      metaInfo: CRVS_META_INFO,
       audit: {}
     })
 
@@ -376,17 +401,13 @@ export async function onMosipDeathRegisterHandler(
         ...extractMosipAddress(deathAddress),
         email: (declaration['informant.email'] as string | undefined) ?? '',
         phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
-        // NOTE: individualBiometrics and proofOfIdentity are biometric/document
-        // types in the MOSIP ID schema and cannot be sent via requestFields.
-        // Remove them from the ID schema's `required` array in MOSIP masterdata
-        // if they should not be mandatory for CRVS_NEW.
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
         recipientFullName: '@TODO',
         recipientPhone: '@TODO'
       },
-      metaInfo: {},
+      metaInfo: CRVS_META_INFO,
       audit: {}
     })
 
