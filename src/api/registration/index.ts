@@ -35,6 +35,46 @@ export interface ActionConfirmationRequest extends Hapi.Request {
 
 /* eslint-disable no-unused-vars */
 
+/** Wraps a plain string into MOSIP's language-value array JSON format.
+ *  MOSIP schema requires simpleType fields (fullName, gender, etc.) as:
+ *  [{ "language": "eng", "value": "..." }]
+ */
+const toMosipLangValue = (value: string | undefined): string | undefined =>
+  value ? JSON.stringify([{ language: 'eng', value }]) : undefined
+
+/** Converts an ISO date string (YYYY-MM-DD) to MOSIP format (YYYY/MM/DD) */
+const toMosipDate = (date: string | undefined): string | undefined =>
+  date ? date.replace(/-/g, '/') : undefined
+
+type AddressFieldValue = {
+  streetLevelDetails?: {
+    town?: string
+    street?: string
+    number?: string
+    residentialArea?: string
+  }
+  administrativeArea?: string
+}
+
+/**
+ * Extracts MOSIP-required address fields from an OpenCRVS address value.
+ * - administrativeArea is the leaf-level location ID (zone/district) — used as
+ *   a fallback for province/region/zone since full hierarchy traversal would
+ *   require an API call. Adjust mappings once location resolution is in place.
+ */
+const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
+  addressLine1:
+    address?.streetLevelDetails?.street ??
+    address?.streetLevelDetails?.town ??
+    '-',
+  addressLine2: address?.streetLevelDetails?.residentialArea ?? '',
+  addressLine3: '',
+  city: address?.streetLevelDetails?.town ?? '-',
+  province: address?.administrativeArea ?? '-',
+  region: address?.administrativeArea ?? '-',
+  zone: address?.administrativeArea ?? '-'
+})
+
 /**
  * Handler for event registration confirmation.
  *
@@ -218,19 +258,32 @@ export async function onMosipBirthRegisterHandler(
     )
 
     const childName = declaration['child.name'] as NameFieldValue | undefined
+    const birthAddress = declaration['mother.address'] as
+      | AddressFieldValue
+      | undefined
+
     mosipInteropClient.register({
       trackingId: event.trackingId,
       requestFields: {
         birthCertificateNumber: registrationNumber,
-        fullName: [
-          childName?.firstname,
-          childName?.middlename,
-          childName?.surname
-        ]
-          .filter(Boolean)
-          .join(' '),
-        dateOfBirth: declaration['child.dob'],
-        gender: declaration['child.gender']
+        fullName: toMosipLangValue(
+          [childName?.firstname, childName?.middlename, childName?.surname]
+            .filter(Boolean)
+            .join(' ')
+        ),
+        dateOfBirth: toMosipDate(
+          declaration['child.dob'] as string | undefined
+        ),
+        gender: toMosipLangValue(
+          declaration['child.gender'] as string | undefined
+        ),
+        ...extractMosipAddress(birthAddress),
+        email: (declaration['informant.email'] as string | undefined) ?? '',
+        phone: (declaration['informant.phoneNo'] as string | undefined) ?? ''
+        // NOTE: individualBiometrics and proofOfIdentity are biometric/document
+        // types in the MOSIP ID schema and cannot be sent via requestFields.
+        // Remove them from the ID schema's `required` array in MOSIP masterdata
+        // if they should not be mandatory for CRVS_NEW.
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
@@ -293,21 +346,37 @@ export async function onMosipDeathRegisterHandler(
     const deceasedName = declaration['deceased.name'] as
       | NameFieldValue
       | undefined
+    const deathAddress = declaration['deceased.address'] as
+      | AddressFieldValue
+      | undefined
 
     mosipInteropClient.register({
       trackingId: event.trackingId,
       requestFields: {
         deathCertificateNumber: registrationNumber,
-        fullName: [
-          deceasedName?.firstname,
-          deceasedName?.middlename,
-          deceasedName?.surname
-        ]
-          .filter(Boolean)
-          .join(' '),
-        dateOfBirth: declaration['deceased.dob'],
-        gender: declaration['deceased.gender'],
-        nationalIdNumber: declaration['deceased.nid']
+        fullName: toMosipLangValue(
+          [
+            deceasedName?.firstname,
+            deceasedName?.middlename,
+            deceasedName?.surname
+          ]
+            .filter(Boolean)
+            .join(' ')
+        ),
+        dateOfBirth: toMosipDate(
+          declaration['deceased.dob'] as string | undefined
+        ),
+        gender: toMosipLangValue(
+          declaration['deceased.gender'] as string | undefined
+        ),
+        nationalIdNumber: declaration['deceased.nid'] as string | undefined,
+        ...extractMosipAddress(deathAddress),
+        email: (declaration['informant.email'] as string | undefined) ?? '',
+        phone: (declaration['informant.phoneNo'] as string | undefined) ?? ''
+        // NOTE: individualBiometrics and proofOfIdentity are biometric/document
+        // types in the MOSIP ID schema and cannot be sent via requestFields.
+        // Remove them from the ID schema's `required` array in MOSIP masterdata
+        // if they should not be mandatory for CRVS_NEW.
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
