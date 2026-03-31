@@ -102,9 +102,9 @@ const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
   ),
   addressLine3: toMosipLangValue('Longacres'),
   city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Lusaka'),
-  province: toMosipLangValue(address?.administrativeArea ?? 'Lusaka Province'),
-  region: toMosipLangValue(address?.administrativeArea ?? 'Lusaka District'),
-  zone: toMosipLangValue(address?.administrativeArea ?? 'Zambia')
+  province: toMosipLangValue('Lusaka Province'),
+  region: toMosipLangValue('Lusaka District'),
+  zone: toMosipLangValue('Zambia')
 })
 
 /**
