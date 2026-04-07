@@ -24,7 +24,7 @@ import { emptyMessage } from '@countryconfig/form/v2/utils'
 import {
   invalidNameValidator,
   nationalIdValidator,
-  farajalandNameConfig
+  zambiaNameConfig
 } from '@countryconfig/form/v2/birth/validators'
 import { InformantType } from './informant'
 import { IdType, idTypeOptions } from '../../../person'
@@ -122,7 +122,7 @@ export const mother = defineFormPage({
         id: 'mother.name',
         type: FieldType.NAME,
         required: true,
-        configuration: farajalandNameConfig,
+        configuration: zambiaNameConfig,
         hideLabel: true,
         label: {
           defaultMessage: "Mother's name",
@@ -269,7 +269,7 @@ export const mother = defineFormPage({
           conditional: requireMotherDetails
         }
       ],
-      defaultValue: 'FAR'
+      defaultValue: 'ZMB'
     },
     connectToMOSIPIdReader(
       {
@@ -448,7 +448,7 @@ export const mother = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'FAR',
+        country: 'ZMB',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },

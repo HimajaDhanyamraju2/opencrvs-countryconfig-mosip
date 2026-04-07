@@ -112,12 +112,12 @@ function getCountryPlaceOfBirthResolved(
   const maybeAddress = AddressFieldValue.safeParse(placeOfBirth)
 
   if (!maybeAddress.success) {
-    return 'Farajaland'
+    return 'Zambia'
   }
 
   const country = maybeAddress.data.country
 
-  return COUNTRY_NAMES_BY_CODE[country] || 'Farajaland'
+  return COUNTRY_NAMES_BY_CODE[country] || 'Zambia'
 }
 
 function precalculateAdditionalAnalytics(

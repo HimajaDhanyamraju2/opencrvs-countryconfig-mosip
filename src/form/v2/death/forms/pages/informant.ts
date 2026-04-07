@@ -24,7 +24,7 @@ import {
 import { not } from '@opencrvs/toolkit/conditionals'
 import { createSelectOptions, emptyMessage } from '../../../utils'
 import {
-  farajalandNameConfig,
+  zambiaNameConfig,
   invalidNameValidator,
   nationalIdValidator
 } from '@countryconfig/form/v2/birth/validators'
@@ -171,7 +171,7 @@ export const informant = defineFormPage({
     connectToMOSIPIdReader(
       {
         id: 'informant.name',
-        configuration: farajalandNameConfig,
+        configuration: zambiaNameConfig,
         type: FieldType.NAME,
         required: true,
         hideLabel: true,
@@ -310,7 +310,7 @@ export const informant = defineFormPage({
           conditional: informantOtherThanSpouse
         }
       ],
-      defaultValue: 'FAR',
+      defaultValue: 'ZMB',
       parent: field('informant.relation')
     },
     connectToMOSIPIdReader(
@@ -526,7 +526,7 @@ export const informant = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'FAR',
+        country: 'ZMB',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },

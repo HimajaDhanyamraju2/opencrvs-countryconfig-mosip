@@ -1,18 +1,18 @@
 id,name,partOf,locationType
-2OKicPQMNI,HQ Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-JEhYJ82xRI,Isamba District Office,Location/ntoX1PkiWri,CRVS_OFFICE
-JWMRGwDBXK,Ibombo District Office,Location/oEBf29y8JP8,CRVS_OFFICE
-HKASqwkASD,Itambo District Office,Location/QTtxiWj8ONP,CRVS_OFFICE
-eaBXhNiLMp,Ezhi District Office,Location/ydyJb1RAy4U,CRVS_OFFICE
-okQp4uKCz0,Ilanga District Office,Location/HPGiE9Jjh2r,CRVS_OFFICE
-R5n2eHaSpB,Irundu District Office,Location/SvFNQpplnch,CRVS_OFFICE
-GzanivmNaP,Zobwe District Office,Location/Oapn6R4rt3D,CRVS_OFFICE
-2stAtvOCwl,Afue District Office,Location/nO68NTtcdw2,CRVS_OFFICE
-p9TC08l373,Embe District Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-Hal1YwlBw7,Ienge District Office,Location/NLjvK1QsrN3,CRVS_OFFICE
-OgMqVlKHoN,Funabuli District Office,Location/idR0pJWLqcR,CRVS_OFFICE
-FHTLilSEgD,Pili District Office,Location/FuvOOwvBw0p,CRVS_OFFICE
-jMEPmtRKQ9,Ama District Office,Location/SQT8xjbvWwf,CRVS_OFFICE
-hfFdA2JI3T,Nsali District Office,Location/hywxVKv48Xp,CRVS_OFFICE
-mNCAv7oKj8,Soka District Office,Location/jCJxK8sFH40,CRVS_OFFICE
-H0EaOnzz0a,Chibiya District Office,Location/R22tRIhdm5Y,CRVS_OFFICE
+ZMB-OFF-001,Zambia National Registration Office (HQ),Location/ZMB-P05-D001,CRVS_OFFICE
+ZMB-OFF-002,Lusaka District Registration Office,Location/ZMB-P05-D001,CRVS_OFFICE
+ZMB-OFF-003,Kafue District Registration Office,Location/ZMB-P05-D002,CRVS_OFFICE
+ZMB-OFF-004,Kabwe District Registration Office,Location/ZMB-P01-D001,CRVS_OFFICE
+ZMB-OFF-005,Kapiri Mposhi District Registration Office,Location/ZMB-P01-D002,CRVS_OFFICE
+ZMB-OFF-006,Ndola District Registration Office,Location/ZMB-P02-D001,CRVS_OFFICE
+ZMB-OFF-007,Kitwe District Registration Office,Location/ZMB-P02-D002,CRVS_OFFICE
+ZMB-OFF-008,Chipata District Registration Office,Location/ZMB-P03-D001,CRVS_OFFICE
+ZMB-OFF-009,Mansa District Registration Office,Location/ZMB-P04-D001,CRVS_OFFICE
+ZMB-OFF-010,Chinsali District Registration Office,Location/ZMB-P06-D001,CRVS_OFFICE
+ZMB-OFF-011,Kasama District Registration Office,Location/ZMB-P07-D001,CRVS_OFFICE
+ZMB-OFF-012,Solwezi District Registration Office,Location/ZMB-P08-D001,CRVS_OFFICE
+ZMB-OFF-013,Livingstone District Registration Office,Location/ZMB-P09-D001,CRVS_OFFICE
+ZMB-OFF-014,Choma District Registration Office,Location/ZMB-P09-D002,CRVS_OFFICE
+ZMB-OFF-015,Mongu District Registration Office,Location/ZMB-P10-D001,CRVS_OFFICE
+ZMB-OFF-016,Senanga District Registration Office,Location/ZMB-P10-D002,CRVS_OFFICE
+ZMB-OFF-017,Kasempa District Registration Office,Location/ZMB-P08-D002,CRVS_OFFICE

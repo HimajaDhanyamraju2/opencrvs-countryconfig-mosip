@@ -71,7 +71,6 @@ export const COUNTRY_NAMES_BY_CODE: Record<string, string> = {
   ESP: 'Spain',
   EST: 'Estonia',
   ETH: 'Ethiopia',
-  FAR: 'Farajaland',
   FIN: 'Finland',
   FJI: 'Fiji',
   FLK: 'Falkland Islands (Malvinas)',

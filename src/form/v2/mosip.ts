@@ -59,7 +59,7 @@ const BIRTH_REGISTRATION_MOSIP_CONSTRAINTS = [
 ]
 
 const DEATH_REGISTRATION_MOSIP_CONSTRAINTS = [
-   {
+  //  {
   //   fieldId: 'spouse.verified',
   //   expectedValues: ['verified', 'authenticated'],
   //   rejectReason: 'Spouse identity not verified or authenticated',
@@ -80,7 +80,15 @@ const DEATH_REGISTRATION_MOSIP_CONSTRAINTS = [
   //     }
   //     return true // Skip this constraint if spouse
   //   }
-   }
+  //  }
+  {
+    fieldId: 'informant.verified',
+    expectedValues: ['verified', 'authenticated'],
+    rejectReason: 'Informant identity not verified or authenticated',
+    validator: (value: any, declaration?: Record<string, any>) => {
+      return true // Adding dummy validation to disable eSignet auth check
+    }
+  }
 ]
 
 const validateConstraints = (
@@ -214,7 +222,7 @@ export const getMOSIPIntegrationFields = (
         description: {
           id: 'verified.status.description',
           defaultMessage:
-            "{value, select, authenticated {This identity has been successfully authenticated with the Farajaland’s National ID System. To make edits, please remove the authentication first.} verified {This identity data has been successfully verified with the Farajaland’s National ID System. Please note that their identity has not been authenticated using the individual's biometrics. To make edits, please remove the verification first.} pending {Identity pending verification with Farajaland’s National ID system} failed {The identity data does not match an entry in Farajaland’s National ID System} other {Invalid value}}",
+            "{value, select, authenticated {This identity has been successfully authenticated with the Zambia’s National ID System. To make edits, please remove the authentication first.} verified {This identity data has been successfully verified with the Zambia’s National ID System. Please note that their identity has not been authenticated using the individual's biometrics. To make edits, please remove the verification first.} pending {Identity pending verification with Zambia’s National ID system} failed {The identity data does not match an entry in Zambia’s National ID System} other {Invalid value}}",
           description: 'Description text of the status'
         }
       },

@@ -202,7 +202,7 @@ config.application.deathTabTitle,The title for death tab,Death,Décès
 config.application.deathTabTitleExport,The title for death tab for VSExport,Deaths,Décès
 config.application.emptystate,Vital Statistics Export Empty State Text,The previous month's vital statistics data (based on vital event registrations occurring within that month) will become available for you to export as of the 1st of every month. Large CSV files cannot be opened in Excel and should therefore be opened in a statistical program such as {posit}.,Les données statistiques vitales du mois précédent (basées sur les enregistrements d'événements vitaux survenus au cours de ce mois) seront disponibles pour l'exportation à partir du 1er de chaque mois. Les grands fichiers CSV ne peuvent pas être ouverts dans Excel et doivent donc être ouverts dans un programme statistique tel que {posit}.
 config.application.export,Download Export CSV,Export,Export
-config.application.vitalStatistics,Vital Statistics Export,"Month-{month}-Farajaland-{event, select, birth{birth} death{death} other{birth}}-event-statistics.csv {fileSize}","Mois-{month}-Farajaland-{event, select, birth{birth} death{death} other{birth}}-événement-statistiques.csv {fileSize}"
+config.application.vitalStatistics,Vital Statistics Export,"Month-{month}-Zambia-{event, select, birth{birth} death{death} other{birth}}-event-statistics.csv {fileSize}","Mois-{month}-Zambia-{event, select, birth{birth} death{death} other{birth}}-événement-statistiques.csv {fileSize}"
 config.application.vsExportDownloadFailed,Vital Statistics Export Empty State Text,Sorry! Something went wrong,Désolé ! Quelque chose s'est mal passé
 config.application.vsexport,VS Export tab,Vital statistics,Statistiques vitales
 config.certTemplate,Label for certificate templates,Certificate Template,Modèle de certificat
@@ -246,7 +246,7 @@ constants.collectedBy,The collected by sec text,Collected by,Collecté par
 constants.collectorDetails,Label for collector details,Collector Details,Information  du collecteur
 constants.comment,Label for rejection comment,Comment,Commentaire
 constants.communityLeader,The description for Community Leader type,Community Leader,Chef de communauté
-constants.countryName,Name of the OpenCRVS implementation country,Farajaland,Farajaland
+constants.countryName,Name of the OpenCRVS implementation country,Zambia,Zambia
 constants.customTimePeriod,Label for Custom time period,Custom time period,Période personnalisée
 constants.dataEntryClerk,The description for DATA_ENTRY_CLERK type,Data entry clerk,Commis à la saisie des données
 constants.dateOfDeclaration,Date of declaration label,Date of declaration,Date de la déclaration
@@ -581,7 +581,6 @@ countries.ESH,,Western Sahara,Sahara occidental
 countries.ESP,,Spain,Espagne
 countries.EST,,Estonia,Estonie
 countries.ETH,,Ethiopia,Éthiopie
-countries.FAR,,Farajaland,Farajaland
 countries.FIN,,Finland,Finlande
 countries.FJI,,Fiji,Fidji
 countries.FLK,,Falkland Islands (Malvinas),Falkland Islands (Malvinas)
@@ -1939,13 +1938,13 @@ review.form.section.review.title,Form section title for Review,Review,Réviser
 review.form.title,Review form label for update action,Review form,Formulaire de révision
 review.header.subject.subjectWitName,Header subject that shows which declaration type to review with informant name,"{eventType, select, birth {Birth} death {Death} other {Marriage} } declaration for {name}","{eventType, select, birth {Naissance} death {Décès} other {Mariage}} declaration for {name}"
 review.header.subject.subjectWithoutName,Header subject that shows which declaration type to review,"{eventType, select, birth {Birth} death {Death} other {Marriage}} Declaration","{eventType, select, birth {Naissance} death {Décès} other {Marriage}} Déclaration"
-review.header.title.govtName,Header title that shows bgd govt name,Republic of Farajaland,République du Farajaland
+review.header.title.govtName,Header title that shows bgd govt name,Republic of Zambia,République de Zambie
 review.inputs.additionalComments,Label for input Additional comments,Comments,Des commentaires supplémentaires ?
 review.inputs.brideSignature,Label for informants signature input,Signature of Bride,Signature de la mariée
 review.inputs.groomSignature,Label for informants signature input,Signature of Groom,Signature du marié
 review.inputs.informantsSignature,Label for informants signature input,Signature of informant,Signature de l'informateur
 review.inputs.supportingDocuments,Section heading title for supporting documents,Supporting documents,Documents justificatifs
-review.inputs.terms,Label for signature terms,"We, the undersigned declare under penalty of perjury under the laws of Farajaland that the forgoing information is true and correct to the best of our knowledge and belief. We further declare that no legal objections to the marriage is known and hereby apply for a certificate of marriage","Nous, les soussignés, déclarons sous peine de parjure en vertu des lois du Farajaland que les informations ci-dessus sont vraies et correctes au mieux de nos connaissances et de nos convictions. Nous déclarons également qu'aucune objection légale au mariage n'est connue et demandons par la présente un certificat de mariage."
+review.inputs.terms,Label for signature terms,"We, the undersigned declare under penalty of perjury under the laws of Zambia that the forgoing information is true and correct to the best of our knowledge and belief. We further declare that no legal objections to the marriage is known and hereby apply for a certificate of marriage","Nous, les soussignés, déclarons sous peine de parjure en vertu des lois de Zambie que les informations ci-dessus sont vraies et correctes au mieux de nos connaissances et de nos convictions. Nous déclarons également qu'aucune objection légale au mariage n'est connue et demandons par la présente un certificat de mariage."
 review.inputs.witnessOneSignature,Label for informants signature input,Signature of Witness 1,Signature du témoin 1
 review.inputs.witnessTwoSignature,Label for informants signature input,Signature of Witness 2,Signature du témoin 2
 review.modal.desc.submitConfirmation,Submit description text on modal,"{completeDeclaration, select, true {This declaration will be sent for review.} other {This incomplete declaration will be sent for review.}}","{completeDeclaration, select, true {Cette déclaration sera envoyée au greffier pour qu'il l'examine.} other {Cette déclaration sera envoyée au greffier pour être complétée. Veuillez informer l'informateur qu'il devra se présenter au bureau avec les informations manquantes et les documents justificatifs.}}"
@@ -1973,7 +1972,7 @@ review.rejection.form.title,Rejection form title,Reason for rejection?,Quelle mi
 review.signature.clear,Label for button that clear signature input,Clear,Supprimer
 review.signature.delete,Label for button that deletes signature,Delete,Supprimer
 review.signature.description,Label awknowledging the correctness of the declaration,"I, the undersigned, hereby declare that the particulars in this form are true and correct to the best of my knowledge.","Je soussigné(e) déclare par la présente que les informations contenues dans ce formulaire sont, à ma connaissance, vraies et correctes."
-review.signature.input.description,Description awknowledging the correctness of the declaration,"By signing this document with an electronic signature, I agree that such signature will be valid as handwritten signatures to the extent allowed by the laws of Farajaland.","En signant ce document avec une signature électronique, j'accepte que cette signature soit valable comme les signatures manuscrites dans la mesure où les lois du Farajaland le permettent."
+review.signature.input.description,Description awknowledging the correctness of the declaration,"By signing this document with an electronic signature, I agree that such signature will be valid as handwritten signatures to the extent allowed by the laws of Zambia.","En signant ce document avec une signature électronique, j'accepte que cette signature soit valable comme les signatures manuscrites dans la mesure où les lois de Zambie le permettent."
 review.signature.open,Label for button that opens the signature input,Sign,Signer
 review.validate.confirm,The label for review action button when validating,Send for approval,Envoyer pour approbation
 review.validate.confirmModal.cancel,The label for modal cancel button when validating,Cancel,Annuler
@@ -2267,17 +2266,17 @@ views.idReader.label.manualInput,Label that shows below the divider on the id re
 views.idReader.label.or,Label that shows on the divider,Or,Ou
 views.idVerification.banner.actions.reset,Action to reset ID,Reset,Réinitialiser
 views.idVerification.banner.actions.revoke,Action to revoke ID,Revoke,Révoquer
-views.idVerification.banner.authenticated.description,Description for authenticated ID,"This identity has been successfully authenticated with the Farajaland’s National ID System. To make edits, please remove the authentication first.","Cette identité a été authentifiée avec succès avec le système d'identification national de Farajaland. Pour apporter des modifications, veuillez d'abord supprimer l'authentification."
+views.idVerification.banner.authenticated.description,Description for authenticated ID,"This identity has been successfully authenticated with the Zambia’s National ID System. To make edits, please remove the authentication first.","Cette identité a été authentifiée avec succès avec le système d'identification national de Zambie. Pour apporter des modifications, veuillez d'abord supprimer l'authentification."
 views.idVerification.banner.authenticated.resetConfirmation.description,Description for reset confirmation of authenticated ID,"By clicking ‘Continue,’ you’ll remove ID Authenticated status and unlock the fields for editing.","En cliquant sur « Continuer », vous supprimerez le statut d'ID authentifié et déverrouillerez les champs pour l'édition."
 views.idVerification.banner.authenticated.resetConfirmation.title,Title for reset confirmation of authenticated ID,Revoke authenticated ID?,Révoquer l'ID authentifié ?
 views.idVerification.banner.authenticated.title,Title for authenticated ID,ID Authenticated,ID Authentifié
-views.idVerification.banner.failed.description,Description for failed ID verification,The identity data does not match an entry in Farajaland’s National ID System,Les données d'identité ne correspondent pas à une entrée du système national d'identification du Farajaland.
+views.idVerification.banner.failed.description,Description for failed ID verification,The identity data does not match an entry in Zambia’s National ID System,Les données d'identité ne correspondent pas à une entrée du système national d'identification de Zambie.
 views.idVerification.banner.failed.resetConfirmation.description,Description for reset confirmation of failed ID,"By clicking ‘Continue,’ you’ll clear all information to it’s default state.","En cliquant sur « Continuer », vous réinitialiserez toutes les informations à leur état par défaut."
 views.idVerification.banner.failed.resetConfirmation.title,Title for reset confirmation of failed ID,Reset information?,Réinitialiser les informations ?
 views.idVerification.banner.failed.title,Title for failed ID verification,ID Verification Failed,Échec de la vérification de l'ID
 views.idVerification.banner.failedFetchIdDetails.description,Description for failed fetch ID details,"We encountered an issue while fetching this individuals details from the National ID system. Please reset to try again. If the issue persists, contact support for assistance.","Nous avons rencontré un problème lors de l'extraction des données de cette personne du système d'identification national. Veuillez réinitialiser pour réessayer. Si le problème persiste, contactez le support pour obtenir de l'aide."
 views.idVerification.banner.failedFetchIdDetails.title,Title for failed fetch ID details,Failed to retrieve details,Échec de l'extraction des détails
-views.idVerification.banner.verified.description,Description for verified ID,"This identity data has been successfully verified with the Farajaland’s National ID System. Please note that their identity has not been authenticated using the individuals biometrics. To make edits, please remove the verification first.","Ces données d'identité ont été vérifiées avec succès avec le système d'identification national de Farajaland. Veuillez noter que leur identité n'a pas été authentifiée à l'aide des données biométriques des individus. Pour apporter des modifications, veuillez d'abord supprimer la vérification."
+views.idVerification.banner.verified.description,Description for verified ID,"This identity data has been successfully verified with the Zambia’s National ID System. Please note that their identity has not been authenticated using the individuals biometrics. To make edits, please remove the verification first.","Ces données d'identité ont été vérifiées avec succès avec le système d'identification national de Zambie. Veuillez noter que leur identité n'a pas été authentifiée à l'aide des données biométriques des individus. Pour apporter des modifications, veuillez d'abord supprimer la vérification."
 views.idVerification.banner.verified.resetConfirmation.description,Description for reset confirmation of verified ID,"By clicking ‘Continue,’ you’ll remove ID Verified status and unlock the fields for editing.","En cliquant sur « Continuer », vous supprimerez le statut d'ID vérifié et déverrouillerez les champs pour l'édition."
 views.idVerification.banner.verified.resetConfirmation.title,Title for reset confirmation of verified ID,Revoke valid ID?,Révoquer l'ID valide ?
 views.idVerification.banner.verified.title,Title for verified ID,ID Verified,ID Vérifié

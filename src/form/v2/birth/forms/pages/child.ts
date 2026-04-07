@@ -28,7 +28,7 @@ import { applicationConfig } from '@countryconfig/api/application/application-co
 
 import { createSelectOptions, emptyMessage } from '@countryconfig/form/v2/utils'
 import {
-  farajalandNameConfig,
+  zambiaNameConfig,
   invalidNameValidator
 } from '@countryconfig/form/v2/birth/validators'
 import {
@@ -213,7 +213,7 @@ export const child = defineFormPage({
       id: 'child.name',
       type: FieldType.NAME,
       required: true,
-      configuration: farajalandNameConfig,
+      configuration: zambiaNameConfig,
       hideLabel: true,
       label: {
         defaultMessage: "Child's name",
@@ -355,7 +355,7 @@ export const child = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'FAR',
+        country: 'ZMB',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },
@@ -399,7 +399,7 @@ export const child = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'FAR',
+        country: 'ZMB',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },

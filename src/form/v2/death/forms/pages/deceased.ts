@@ -24,7 +24,7 @@ import { not, never } from '@opencrvs/toolkit/conditionals'
 
 import { createSelectOptions, emptyMessage } from '@countryconfig/form/v2/utils'
 import {
-  farajalandNameConfig,
+  zambiaNameConfig,
   invalidNameValidator,
   nationalIdValidator
 } from '@countryconfig/form/v2/birth/validators'
@@ -85,7 +85,7 @@ export const deceased = defineFormPage({
       {
         id: 'deceased.name',
         type: FieldType.NAME,
-        configuration: farajalandNameConfig,
+        configuration: zambiaNameConfig,
         required: true,
         hideLabel: true,
         label: {
@@ -227,7 +227,7 @@ export const deceased = defineFormPage({
         description: 'This is the label for the field',
         id: `v2.event.death.action.declare.form.section.person.field.nationality.label`
       },
-      defaultValue: 'FAR'
+      defaultValue: 'ZMB'
     },
     connectToMOSIPIdReader(
       {
@@ -396,7 +396,7 @@ export const deceased = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'FAR',
+        country: 'ZMB',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },
