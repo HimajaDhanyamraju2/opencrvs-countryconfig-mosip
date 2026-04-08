@@ -311,7 +311,9 @@ export async function onMosipBirthRegisterHandler(
         ),
         ...extractMosipAddress(birthAddress),
         email: (declaration['informant.email'] as string | undefined) ?? '',
-        phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
+        phone:
+          (declaration['informant.phoneNo'] as string | undefined) ??
+          '9999999999'
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
@@ -382,6 +384,8 @@ export async function onMosipDeathRegisterHandler(
       trackingId: event.trackingId,
       requestFields: {
         deathCertificateNumber: registrationNumber,
+
+        // Deceased fields
         fullName: toMosipLangValue(
           [
             deceasedName?.firstname,
@@ -398,9 +402,26 @@ export async function onMosipDeathRegisterHandler(
           declaration['deceased.gender'] as string | undefined
         ),
         nationalIdNumber: declaration['deceased.nid'] as string | undefined,
+        UIN: declaration['deceased.nid'] as string | undefined, // NID = UIN in your case
+
+        // Death event fields
+        deceasedDeclarationDate: toMosipDate(
+          declaration['eventDetails.date'] as string | undefined
+        ),
+
+        // MOSIP deceased flag — always Y for death registration
+        declaredAsDeceased: 'Y',
+
+        // Address
         ...extractMosipAddress(deathAddress),
+
+        // Informant fields — confirmed field names
         email: (declaration['informant.email'] as string | undefined) ?? '',
-        phone: (declaration['informant.phoneNo'] as string | undefined) ?? '9999999999'
+        phone:
+          (declaration['informant.phoneNo'] as string | undefined) ??
+          '9999999999',
+        deceasedInformer: declaration['informant.name'] as string | undefined,
+        introducerInfoToken: declaration['informant.nid'] as string | undefined
       },
       notification: {
         recipientEmail: declaration['informant.email'] as string,
