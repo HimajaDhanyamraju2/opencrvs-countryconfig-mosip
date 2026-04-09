@@ -1,7 +1,7 @@
 import { countryLogo } from '@countryconfig/api/application/country-logo'
 
 export const applicationConfig = {
-  APPLICATION_NAME: 'Zambia CRS',
+  APPLICATION_NAME: 'ZAMCRVS',
   BIRTH: {
     REGISTRATION_TARGET: 30,
     LATE_REGISTRATION_TARGET: 365,
