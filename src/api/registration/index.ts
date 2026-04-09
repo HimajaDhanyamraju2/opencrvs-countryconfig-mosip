@@ -350,9 +350,6 @@ export async function onMosipDeathRegisterHandler(
   const { valid, reason } = shouldForwardDeathRegistrationToMosip(declaration)
   const pendingAction = getPendingAction(event.actions)
 
-  // TBD: Should we let user know if they should wait for MOSIP registration to complete or send notification here?
-  // await sendInformantNotification({ event, token, registrationNumber })
-
   if (!valid) {
     handleDeferredRejection(token, event.id, pendingAction.id, reason)
     return h.response().code(202)
@@ -363,7 +360,7 @@ export async function onMosipDeathRegisterHandler(
       'Passed country specified custom logic check for id creation. Forwarding to MOSIP...'
     )
 
-    const declaration = deepMerge(
+    const mergedDeclaration = deepMerge(
       aggregateActionDeclarations(event),
       pendingAction.declaration
     )
@@ -373,14 +370,30 @@ export async function onMosipDeathRegisterHandler(
       `Bearer ${token}`
     )
 
-    const deceasedName = declaration['deceased.name'] as
+    // Helper to safely extract string from CRVS fields
+    const ensureString = (val: any): string | undefined => {
+      if (!val) return undefined
+      if (typeof val === 'string') return val
+      if (typeof val === 'object') {
+        if (val.value) return val.value
+        return JSON.stringify(val) // fallback (rare case)
+      }
+      return String(val)
+    }
+
+    const deceasedName = mergedDeclaration['deceased.name'] as
       | NameFieldValue
       | undefined
-    const deathAddress = declaration['deceased.address'] as
+
+    const informantName = mergedDeclaration['informant.name'] as
+      | NameFieldValue
+      | undefined
+
+    const deathAddress = mergedDeclaration['deceased.address'] as
       | AddressFieldValue
       | undefined
 
-    mosipInteropClient.register({
+    const payload = {
       trackingId: event.trackingId,
       requestFields: {
         deathCertificateNumber: registrationNumber,
@@ -396,51 +409,79 @@ export async function onMosipDeathRegisterHandler(
             .join(' ')
         ),
         dateOfBirth: toMosipDate(
-          declaration['deceased.dob'] as string | undefined
+          ensureString(mergedDeclaration['deceased.dob'])
         ),
         gender: toMosipLangValue(
-          declaration['deceased.gender'] as string | undefined
+          ensureString(mergedDeclaration['deceased.gender'])
         ),
-        nationalIdNumber: declaration['deceased.nid'] as string | undefined,
-        UIN: declaration['deceased.nid'] as string | undefined, // NID = UIN in your case
+
+        nationalIdNumber: ensureString(mergedDeclaration['deceased.nid']),
+        UIN: ensureString(mergedDeclaration['deceased.nid']),
 
         // Death event fields
         deceasedDeclarationDate: toMosipDate(
-          declaration['eventDetails.date'] as string | undefined
+          ensureString(mergedDeclaration['eventDetails.date'])
         ),
 
-        // MOSIP deceased flag — always Y for death registration
         declaredAsDeceased: 'Y',
 
         // Address
         ...extractMosipAddress(deathAddress),
 
-        // Informant fields — confirmed field names
-        email: (declaration['informant.email'] as string | undefined) ?? '',
+        // Informant fields
+        email: ensureString(mergedDeclaration['informant.email']) ?? '',
         phone:
-          (declaration['informant.phoneNo'] as string | undefined) ??
-          '9999999999',
-        deceasedInformer: declaration['informant.name'] as string | undefined,
-        introducerInfoToken: declaration['informant.nid'] as string | undefined
+          ensureString(mergedDeclaration['informant.phoneNo']) ?? '9999999999',
+
+        deceasedInformer: informantName
+          ? [
+              informantName.firstname,
+              informantName.middlename,
+              informantName.surname
+            ]
+              .filter(Boolean)
+              .join(' ')
+          : undefined,
+
+        introducerInfoToken: ensureString(mergedDeclaration['informant.nid'])
       },
+
       notification: {
-        recipientEmail: declaration['informant.email'] as string,
-        recipientFullName: '@TODO',
-        recipientPhone: '@TODO'
+        recipientEmail:
+          ensureString(mergedDeclaration['informant.email']) ?? '',
+        recipientFullName: informantName
+          ? [
+              informantName.firstname,
+              informantName.middlename,
+              informantName.surname
+            ]
+              .filter(Boolean)
+              .join(' ')
+          : '',
+        recipientPhone:
+          ensureString(mergedDeclaration['informant.phoneNo']) ?? ''
       },
+
       metaInfo: CRVS_META_INFO,
       audit: {}
-    })
+    }
+
+    // Debug log (keep during testing)
+    console.log('MOSIP PAYLOAD:', JSON.stringify(payload, null, 2))
+
+    await mosipInteropClient.register(payload)
 
     return h.response().code(202)
   } catch (error) {
     logger.error(error)
+
     handleDeferredRejection(
       token,
       event.id,
       pendingAction.id,
       'Unexpected error in OpenCRVS-MOSIP interoperability layer'
     )
+
     return h.response().code(202)
   }
 }
