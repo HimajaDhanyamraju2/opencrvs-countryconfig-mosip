@@ -91,6 +91,29 @@ const CRVS_META_INFO = {
   capturedRegisteredDevices: JSON.stringify([])
 }
 
+const CRVS_META_INFO_DEATH = {
+  operationsData: JSON.stringify([
+    { label: 'officerId', value: 'crvsuser' },
+    { label: 'officerBiometricFileName', value: null },
+    { label: 'supervisorId', value: 'crvsuser' },
+    { label: 'supervisorBiometricFileName', value: null },
+    { label: 'supervisorPassword', value: 'true' },
+    { label: 'supervisorPIN', value: null },
+    { label: 'supervisorOTP', value: 'false' },
+    { label: 'supervisorOTPAuthentication', value: 'false' },
+    { label: 'officerPassword', value: 'true' },
+    { label: 'officerPIN', value: null },
+    { label: 'officerOTP', value: 'false' },
+    { label: 'officerOTPAuthentication', value: 'false' }
+  ]),
+  metaData: JSON.stringify([
+    { label: 'centerId', value: '10152' },
+    { label: 'machineId', value: '10004' },
+    { label: 'registrationType', value: 'CRVS_DEATH' }
+  ]),
+  capturedRegisteredDevices: JSON.stringify([])
+}
+
 const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
   addressLine1: toMosipLangValue(
     address?.streetLevelDetails?.street ??
@@ -462,7 +485,7 @@ export async function onMosipDeathRegisterHandler(
           ensureString(mergedDeclaration['informant.phoneNo']) ?? ''
       },
 
-      metaInfo: CRVS_META_INFO,
+      metaInfo: CRVS_META_INFO_DEATH,
       audit: {}
     }
 
