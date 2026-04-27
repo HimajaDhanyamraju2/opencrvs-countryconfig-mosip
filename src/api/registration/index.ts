@@ -84,7 +84,7 @@ const CRVS_META_INFO = {
     { label: 'officerOTPAuthentication', value: 'false' }
   ]),
   metaData: JSON.stringify([
-    { label: 'centerId', value: '10152' },
+    { label: 'centerId', value: '10026' },
     { label: 'machineId', value: '10004' },
     { label: 'registrationType', value: 'CRVS_NEW' }
   ]),
@@ -107,7 +107,7 @@ const CRVS_META_INFO_DEATH = {
     { label: 'officerOTPAuthentication', value: 'false' }
   ]),
   metaData: JSON.stringify([
-    { label: 'centerId', value: '10152' },
+    { label: 'centerId', value: '10026' },
     { label: 'machineId', value: '10004' },
     { label: 'registrationType', value: 'CRVS_DEATH' }
   ]),
