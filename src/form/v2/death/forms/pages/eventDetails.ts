@@ -357,7 +357,7 @@ export const eventDetails = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'ZMB',
+        country: 'MWI',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },

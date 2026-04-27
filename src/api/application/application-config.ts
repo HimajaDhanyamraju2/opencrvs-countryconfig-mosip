@@ -1,7 +1,7 @@
 import { countryLogo } from '@countryconfig/api/application/country-logo'
 
 export const applicationConfig = {
-  APPLICATION_NAME: 'ZAMCRVS',
+  APPLICATION_NAME: 'MoyoReg',
   BIRTH: {
     REGISTRATION_TARGET: 30,
     LATE_REGISTRATION_TARGET: 365,
@@ -13,10 +13,10 @@ export const applicationConfig = {
     PRINT_IN_ADVANCE: true
   },
   COUNTRY_LOGO: countryLogo,
-  SYSTEM_IANA_TIMEZONE: 'Africa/Lusaka', // Default timezone for the country. Basis for date and time calculations during searches.
+  SYSTEM_IANA_TIMEZONE: 'Africa/Blantyre', // Default timezone for the country. Basis for date and time calculations during searches.
   CURRENCY: {
-    languagesAndCountry: ['en-ZM'],
-    isoCode: 'ZMW'
+    languagesAndCountry: ['en-MW'],
+    isoCode: 'MWI'
   },
   DEATH: {
     REGISTRATION_TARGET: 45,

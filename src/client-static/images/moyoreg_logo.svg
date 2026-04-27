@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220">
+  <defs>
+    <linearGradient id="flagRing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#000000"/>
+      <stop offset="33%"  stop-color="#000000"/>
+      <stop offset="33%"  stop-color="#CE1126"/>
+      <stop offset="66%"  stop-color="#CE1126"/>
+      <stop offset="66%"  stop-color="#339E35"/>
+      <stop offset="100%" stop-color="#339E35"/>
+    </linearGradient>
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </radialGradient>
+    <radialGradient id="sunFill" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#FFE566"/>
+      <stop offset="55%"  stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#E07800"/>
+    </radialGradient>
+    <linearGradient id="timelineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#339E35"/>
+      <stop offset="50%"  stop-color="#CE1126"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <filter id="iconShadow" x="-18%" y="-12%" width="145%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#00000028"/>
+    </filter>
+    <filter id="sunGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="innerClip">
+      <circle cx="110" cy="110" r="76"/>
+    </clipPath>
+  </defs>
+
+  <!-- OUTER RING -->
+  <circle cx="110" cy="110" r="100" fill="url(#flagRing)" filter="url(#iconShadow)"/>
+  <circle cx="110" cy="110" r="100" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="110" cy="110" r="89"  fill="none" stroke="#D4AF37" stroke-width="1.8"/>
+  <circle cx="110" cy="110" r="85"  fill="none" stroke="#D4AF37" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- INNER CIRCLE -->
+  <circle cx="110" cy="110" r="77" fill="url(#innerGlow)"/>
+
+  <!-- RISING SUN -->
+  <g filter="url(#sunGlow)" clip-path="url(#innerClip)">
+    <circle cx="110" cy="71" r="15" fill="url(#sunFill)"/>
+    <g stroke="#FFA500" stroke-width="2.2" stroke-linecap="round">
+      <line x1="110" y1="56" x2="110" y2="49"/>
+      <line x1="120" y1="58" x2="126" y2="52"/>
+      <line x1="125" y1="68" x2="133" y2="65"/>
+      <line x1="122" y1="80" x2="129" y2="85"/>
+      <line x1="100" y1="58" x2="94"  y2="52"/>
+      <line x1="95"  y1="68" x2="87"  y2="65"/>
+      <line x1="98"  y1="80" x2="91"  y2="85"/>
+    </g>
+    <circle cx="110" cy="71" r="6"   fill="#FFE88A" opacity="0.7"/>
+    <circle cx="110" cy="71" r="2.5" fill="#FFFFFF"  opacity="0.6"/>
+  </g>
+
+  <!-- LIFE EVENTS TIMELINE -->
+  <!-- Baseline bar -->
+  <rect x="43" y="137" width="134" height="3.5" rx="1.8" fill="url(#timelineGrad)" clip-path="url(#innerClip)"/>
+  <!-- Dashed connector -->
+  <line x1="55" y1="122" x2="165" y2="122" stroke="#CCCCCC" stroke-width="1.2" stroke-dasharray="4,3" clip-path="url(#innerClip)"/>
+  <!-- Arrows on dashed line -->
+  <polygon points="73,120 77,118 77,122" fill="#BBBBBB" clip-path="url(#innerClip)"/>
+  <polygon points="107,120 111,118 111,122" fill="#BBBBBB" clip-path="url(#innerClip)"/>
+  <polygon points="141,120 145,118 145,122" fill="#BBBBBB" clip-path="url(#innerClip)"/>
+
+  <!-- EVENT 1: BIRTH -->
+  <line x1="55" y1="122" x2="55" y2="137" stroke="#339E35" stroke-width="1.5" clip-path="url(#innerClip)"/>
+  <g clip-path="url(#innerClip)">
+    <!-- Cradle arc -->
+    <path d="M47,120 Q55,108 63,120" fill="none" stroke="#339E35" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="45" y1="120" x2="65" y2="120" stroke="#339E35" stroke-width="2" stroke-linecap="round"/>
+    <!-- Baby head -->
+    <circle cx="55" cy="113" r="4.5" fill="#339E35"/>
+    <!-- Plus/cross above (new life) -->
+    <line x1="55" y1="102" x2="55" y2="97" stroke="#339E35" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="52.5" y1="99.5" x2="57.5" y2="99.5" stroke="#339E35" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <text x="55" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-weight="bold" fill="#339E35">BIRTH</text>
+
+  <!-- EVENT 2: YOUTH -->
+  <line x1="90" y1="122" x2="90" y2="137" stroke="#5BAF60" stroke-width="1.5" clip-path="url(#innerClip)"/>
+  <g clip-path="url(#innerClip)">
+    <circle cx="90" cy="105" r="5" fill="#5BAF60"/>
+    <line x1="90" y1="110" x2="90" y2="121" stroke="#5BAF60" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="113" x2="83" y2="108" stroke="#5BAF60" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="113" x2="97" y2="108" stroke="#5BAF60" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="121" x2="85" y2="127" stroke="#5BAF60" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="121" x2="95" y2="127" stroke="#5BAF60" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="90" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-weight="bold" fill="#5BAF60">YOUTH</text>
+
+  <!-- EVENT 3: MARRIAGE -->
+  <line x1="126" y1="122" x2="126" y2="137" stroke="#CE1126" stroke-width="1.5" clip-path="url(#innerClip)"/>
+  <g clip-path="url(#innerClip)">
+    <!-- Person 1 -->
+    <circle cx="121" cy="105" r="4" fill="#CE1126"/>
+    <line x1="121" y1="109" x2="121" y2="119" stroke="#CE1126" stroke-width="2" stroke-linecap="round"/>
+    <line x1="121" y1="112" x2="116" y2="108" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="121" y1="112" x2="125" y2="111" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="121" y1="119" x2="117" y2="125" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="121" y1="119" x2="124" y2="125" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Person 2 (female — hair bump) -->
+    <circle cx="131" cy="105" r="4" fill="#CE1126"/>
+    <path d="M128,102 Q131,98 134,102" fill="#CE1126"/>
+    <line x1="131" y1="109" x2="131" y2="119" stroke="#CE1126" stroke-width="2" stroke-linecap="round"/>
+    <line x1="131" y1="112" x2="127" y2="111" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="131" y1="112" x2="136" y2="108" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="131" y1="119" x2="128" y2="125" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="131" y1="119" x2="134" y2="125" stroke="#CE1126" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Joined hands -->
+    <line x1="124" y1="112" x2="128" y2="112" stroke="#CE1126" stroke-width="2" stroke-linecap="round"/>
+    <!-- Heart above -->
+    <path d="M126,99 C124,97 121.5,97.5 121.5,99.8 C121.5,101.5 123.5,103 126,105 C128.5,103 130.5,101.5 130.5,99.8 C130.5,97.5 128,97 126,99 Z" fill="#FF5577" opacity="0.9"/>
+  </g>
+  <text x="126" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-weight="bold" fill="#CE1126">MARRIAGE</text>
+
+  <!-- EVENT 4: DEATH -->
+  <line x1="163" y1="122" x2="163" y2="137" stroke="#222222" stroke-width="1.5" clip-path="url(#innerClip)"/>
+  <g clip-path="url(#innerClip)">
+    <!-- Tombstone -->
+    <rect x="155.5" y="113" width="15" height="11" rx="7.5" ry="4" fill="#333333"/>
+    <rect x="155.5" y="119" width="15" height="5" fill="#333333"/>
+    <line x1="163" y1="115" x2="163" y2="122" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="159.5" y1="118" x2="166.5" y2="118" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="152" y1="124" x2="174" y2="124" stroke="#555555" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Departing star -->
+    <polygon points="163,103 164.2,107 168,107 165,109.5 166.2,113 163,110.5 159.8,113 161,109.5 158,107 161.8,107" fill="#D4AF37" opacity="0.85"/>
+  </g>
+  <text x="163" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="7.5" font-weight="bold" fill="#333333">DEATH</text>
+
+  <!-- CURVED RING TEXT -->
+  <path id="topCurve" d="M 22,110 A 88,88 0 0,1 198,110" fill="none"/>
+  <text font-size="10.5" fill="#FFFFFF" letter-spacing="3"
+        font-family="'Palatino Linotype', Palatino, Georgia, serif" font-weight="bold">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">REPUBLIC OF MALAWI</textPath>
+  </text>
+
+  <path id="botCurve" d="M 26,110 A 84,84 0 0,0 194,110" fill="none"/>
+  <text font-size="9" fill="#D4AF37" letter-spacing="1.8"
+        font-family="'Palatino Linotype', Palatino, Georgia, serif" font-weight="bold">
+    <textPath href="#botCurve" startOffset="50%" text-anchor="middle">CIVIL REG. &amp; VITAL STATISTICS</textPath>
+  </text>
+
+  <!-- Gold diamonds -->
+  <polygon points="211,110 215,106 219,110 215,114" fill="#D4AF37"/>
+  <polygon points="1,110   5,106   9,110   5,114"   fill="#D4AF37"/>
+
+  <!-- ═══ WORDMARK ═══ -->
+  <line x1="234" y1="36" x2="234" y2="184" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="238" y1="36" x2="238" y2="184" stroke="#D4AF37" stroke-width="0.5" opacity="0.35"/>
+
+  <text x="256" y="101"
+        font-family="'Palatino Linotype', Palatino, Georgia, serif"
+        font-size="72" font-weight="bold" fill="#111111" letter-spacing="-1">Moyo</text>
+
+  <text x="440" y="101"
+        font-family="'Palatino Linotype', Palatino, Georgia, serif"
+        font-size="72" font-weight="bold" fill="#CE1126" letter-spacing="-1">Reg</text>
+
+  <!-- Tricolor underline -->
+  <rect x="256" y="108" width="92" height="5" rx="2" fill="#000000"/>
+  <rect x="350" y="108" width="92" height="5" rx="2" fill="#CE1126"/>
+  <rect x="444" y="108" width="92" height="5" rx="2" fill="#339E35"/>
+
+  <!-- Full name — reduced font size, complete text -->
+  <text x="256" y="130"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="10" font-weight="bold" letter-spacing="2"
+        fill="#333333">CIVIL REGISTRATION &amp; VITAL STATISTICS</text>
+
+  <line x1="256" y1="140" x2="538" y2="140" stroke="#DDDDDD" stroke-width="0.8"/>
+
+  <!-- Tagline -->
+  <text x="256" y="158"
+        font-family="Georgia, serif"
+        font-size="10.5" font-style="italic" letter-spacing="0.8"
+        fill="#666666">"Moyo ndi mphatso"  ·  Life is a Gift</text>
+
+  <!-- Green pill badge — wider, updated text -->
+  <rect x="256" y="167" width="200" height="20" rx="10" fill="#2A8C2F"/>
+  <text x="356" y="181"
+        font-family="Arial, sans-serif" font-size="9.2"
+        font-weight="bold" letter-spacing="0.9" fill="#FFFFFF"
+        text-anchor="middle">Malawi's CRVS Registry</text>
+
+  <!-- Est. year -->
+  <text x="462" y="181"
+        font-family="Arial, sans-serif" font-size="9"
+        fill="#999999" letter-spacing="0.4">·  Est. 2025</text>
+
+</svg>

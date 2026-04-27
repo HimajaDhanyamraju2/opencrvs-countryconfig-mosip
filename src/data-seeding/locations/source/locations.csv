@@ -1,95 +1,33 @@
 admin2Name_en,admin2Name_alias,admin2Pcode,admin1Name_en,admin1Name_alias,admin1Pcode,admin0Name_en,admin0Name_alias,admin0Pcode
-Kabwe,Kabwe,ZMB-P01-D001,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Kapiri Mposhi,Kapiri Mposhi,ZMB-P01-D002,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Mkushi,Mkushi,ZMB-P01-D003,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Serenje,Serenje,ZMB-P01-D004,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Chibombo,Chibombo,ZMB-P01-D005,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Chisamba,Chisamba,ZMB-P01-D006,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Mumbwa,Mumbwa,ZMB-P01-D007,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Itezhi-Tezhi,Itezhi-Tezhi,ZMB-P01-D008,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Ngabwe,Ngabwe,ZMB-P01-D009,Central Province,Central Province,ZMB-P01,Zambia,Zambia,ZMB
-Ndola,Ndola,ZMB-P02-D001,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Kitwe,Kitwe,ZMB-P02-D002,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Chingola,Chingola,ZMB-P02-D003,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Mufulira,Mufulira,ZMB-P02-D004,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Luanshya,Luanshya,ZMB-P02-D005,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Kalulushi,Kalulushi,ZMB-P02-D006,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Chambishi,Chambishi,ZMB-P02-D007,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Lufwanyama,Lufwanyama,ZMB-P02-D008,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Masaiti,Masaiti,ZMB-P02-D009,Copperbelt Province,Copperbelt Province,ZMB-P02,Zambia,Zambia,ZMB
-Chipata,Chipata,ZMB-P03-D001,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Katete,Katete,ZMB-P03-D002,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Lundazi,Lundazi,ZMB-P03-D003,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Petauke,Petauke,ZMB-P03-D004,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Chadiza,Chadiza,ZMB-P03-D005,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Mambwe,Mambwe,ZMB-P03-D006,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Nyimba,Nyimba,ZMB-P03-D007,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Sinda,Sinda,ZMB-P03-D008,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Vubwi,Vubwi,ZMB-P03-D009,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Chasefu,Chasefu,ZMB-P03-D010,Eastern Province,Eastern Province,ZMB-P03,Zambia,Zambia,ZMB
-Mansa,Mansa,ZMB-P04-D001,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Kawambwa,Kawambwa,ZMB-P04-D002,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Samfya,Samfya,ZMB-P04-D003,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Mwense,Mwense,ZMB-P04-D004,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Nchelenge,Nchelenge,ZMB-P04-D005,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Chiengi,Chiengi,ZMB-P04-D006,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Milenge,Milenge,ZMB-P04-D007,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Lunga,Lunga,ZMB-P04-D008,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Chembe,Chembe,ZMB-P04-D009,Luapula Province,Luapula Province,ZMB-P04,Zambia,Zambia,ZMB
-Lusaka,Lusaka,ZMB-P05-D001,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Kafue,Kafue,ZMB-P05-D002,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Chongwe,Chongwe,ZMB-P05-D003,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Luangwa,Luangwa,ZMB-P05-D004,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Rufunsa,Rufunsa,ZMB-P05-D005,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Chilanga,Chilanga,ZMB-P05-D006,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Shibuyunji,Shibuyunji,ZMB-P05-D007,Lusaka Province,Lusaka Province,ZMB-P05,Zambia,Zambia,ZMB
-Chinsali,Chinsali,ZMB-P06-D001,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Mpika,Mpika,ZMB-P06-D002,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Nakonde,Nakonde,ZMB-P06-D003,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Isoka,Isoka,ZMB-P06-D004,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Mafinga,Mafinga,ZMB-P06-D005,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Shiwang’andu,Shiwang’andu,ZMB-P06-D006,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Lavushimanda,Lavushimanda,ZMB-P06-D007,Muchinga Province,Muchinga Province,ZMB-P06,Zambia,Zambia,ZMB
-Kasama,Kasama,ZMB-P07-D001,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Mbala,Mbala,ZMB-P07-D002,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Mpulungu,Mpulungu,ZMB-P07-D003,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Mporokoso,Mporokoso,ZMB-P07-D004,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Luwingu,Luwingu,ZMB-P07-D005,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Kaputa,Kaputa,ZMB-P07-D006,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Nsama,Nsama,ZMB-P07-D007,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Chilubi,Chilubi,ZMB-P07-D008,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Lunte,Lunte,ZMB-P07-D009,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Senga Hill,Senga Hill,ZMB-P07-D010,Northern Province,Northern Province,ZMB-P07,Zambia,Zambia,ZMB
-Solwezi,Solwezi,ZMB-P08-D001,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Kasempa,Kasempa,ZMB-P08-D002,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Mufumbwe,Mufumbwe,ZMB-P08-D003,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Zambezi,Zambezi,ZMB-P08-D004,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Kabompo,Kabompo,ZMB-P08-D005,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Chavuma,Chavuma,ZMB-P08-D006,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Kalumbila,Kalumbila,ZMB-P08-D007,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Manyinga,Manyinga,ZMB-P08-D008,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Mushindamo,Mushindamo,ZMB-P08-D009,North-Western Province,North-Western Province,ZMB-P08,Zambia,Zambia,ZMB
-Livingstone,Livingstone,ZMB-P09-D001,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Choma,Choma,ZMB-P09-D002,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Mazabuka,Mazabuka,ZMB-P09-D003,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Monze,Monze,ZMB-P09-D004,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Kalomo,Kalomo,ZMB-P09-D005,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Namwala,Namwala,ZMB-P09-D006,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Kazungula,Kazungula,ZMB-P09-D007,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Siavonga,Siavonga,ZMB-P09-D008,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Gwembe,Gwembe,ZMB-P09-D009,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Pemba,Pemba,ZMB-P09-D010,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Sinazongwe,Sinazongwe,ZMB-P09-D011,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Zimba,Zimba,ZMB-P09-D012,Southern Province,Southern Province,ZMB-P09,Zambia,Zambia,ZMB
-Mongu,Mongu,ZMB-P10-D001,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Senanga,Senanga,ZMB-P10-D002,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Sesheke,Sesheke,ZMB-P10-D003,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Kalabo,Kalabo,ZMB-P10-D004,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Kaoma,Kaoma,ZMB-P10-D005,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Lukulu,Lukulu,ZMB-P10-D006,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Shangombo,Shangombo,ZMB-P10-D007,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Limulunga,Limulunga,ZMB-P10-D008,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Nalolo,Nalolo,ZMB-P10-D009,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Nkeyema,Nkeyema,ZMB-P10-D010,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Mitete,Mitete,ZMB-P10-D011,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
-Sioma,Sioma,ZMB-P10-D012,Western Province,Western Province,ZMB-P10,Zambia,Zambia,ZMB
+Chitipa,Chitipa,MWD1,Northern,Northern,MWR1,Malawi,Malawi,MW
+Karonga,Karonga,MWD2,Northern,Northern,MWR1,Malawi,Malawi,MW
+Nkhatabay,Nkhatabay,MWD3,Northern,Northern,MWR1,Malawi,Malawi,MW
+Rumphi,Rumphi,MWD4,Northern,Northern,MWR1,Malawi,Malawi,MW
+Mzimba,Mzimba,MWD5,Northern,Northern,MWR1,Malawi,Malawi,MW
+Likoma,Likoma,MWD6,Northern,Northern,MWR1,Malawi,Malawi,MW
+Mzuzu City,Mzuzu City,MWD7,Northern,Northern,MWR1,Malawi,Malawi,MW
+Kasungu,Kasungu,MWD8,Central,Central,MWR2,Malawi,Malawi,MW
+Nkhotakota,Nkhotakota,MWD9,Central,Central,MWR2,Malawi,Malawi,MW
+Ntchisi,Ntchisi,MWD10,Central,Central,MWR2,Malawi,Malawi,MW
+Dowa,Dowa,MWD11,Central,Central,MWR2,Malawi,Malawi,MW
+Salima,Salima,MWD12,Central,Central,MWR2,Malawi,Malawi,MW
+Lilongwe,Lilongwe,MWD13,Central,Central,MWR2,Malawi,Malawi,MW
+Mchinji,Mchinji,MWD14,Central,Central,MWR2,Malawi,Malawi,MW
+Dedza,Dedza,MWD15,Central,Central,MWR2,Malawi,Malawi,MW
+Ntcheu,Ntcheu,MWD16,Central,Central,MWR2,Malawi,Malawi,MW
+Lilongwe City,Lilongwe City,MWD17,Central,Central,MWR2,Malawi,Malawi,MW
+Mangochi,Mangochi,MWD18,Southern,Southern,MWR3,Malawi,Malawi,MW
+Machinga,Machinga,MWD19,Southern,Southern,MWR3,Malawi,Malawi,MW
+Zomba,Zomba,MWD20,Southern,Southern,MWR3,Malawi,Malawi,MW
+Chiradzulu,Chiradzulu,MWD21,Southern,Southern,MWR3,Malawi,Malawi,MW
+Blantyre,Blantyre,MWD22,Southern,Southern,MWR3,Malawi,Malawi,MW
+Mwanza,Mwanza,MWD23,Southern,Southern,MWR3,Malawi,Malawi,MW
+Thyolo,Thyolo,MWD24,Southern,Southern,MWR3,Malawi,Malawi,MW
+Mulanje,Mulanje,MWD25,Southern,Southern,MWR3,Malawi,Malawi,MW
+Phalombe,Phalombe,MWD26,Southern,Southern,MWR3,Malawi,Malawi,MW
+Chikwawa,Chikwawa,MWD27,Southern,Southern,MWR3,Malawi,Malawi,MW
+Nsanje,Nsanje,MWD28,Southern,Southern,MWR3,Malawi,Malawi,MW
+Balaka,Balaka,MWD29,Southern,Southern,MWR3,Malawi,Malawi,MW
+Neno,Neno,MWD30,Southern,Southern,MWR3,Malawi,Malawi,MW
+Zomba City,Zomba City,MWD31,Southern,Southern,MWR3,Malawi,Malawi,MW
+Blantyre City,Blantyre City,MWD32,Southern,Southern,MWR3,Malawi,Malawi,MW

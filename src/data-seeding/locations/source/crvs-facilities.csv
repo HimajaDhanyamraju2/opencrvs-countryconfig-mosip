@@ -1,18 +1,34 @@
 id,name,partOf,locationType
-ZMB-OFF-001,Zambia National Registration Office (HQ),Location/ZMB-P05-D001,CRVS_OFFICE
-ZMB-OFF-002,Lusaka District Registration Office,Location/ZMB-P05-D001,CRVS_OFFICE
-ZMB-OFF-003,Kafue District Registration Office,Location/ZMB-P05-D002,CRVS_OFFICE
-ZMB-OFF-004,Kabwe District Registration Office,Location/ZMB-P01-D001,CRVS_OFFICE
-ZMB-OFF-005,Kapiri Mposhi District Registration Office,Location/ZMB-P01-D002,CRVS_OFFICE
-ZMB-OFF-006,Ndola District Registration Office,Location/ZMB-P02-D001,CRVS_OFFICE
-ZMB-OFF-007,Kitwe District Registration Office,Location/ZMB-P02-D002,CRVS_OFFICE
-ZMB-OFF-008,Chipata District Registration Office,Location/ZMB-P03-D001,CRVS_OFFICE
-ZMB-OFF-009,Mansa District Registration Office,Location/ZMB-P04-D001,CRVS_OFFICE
-ZMB-OFF-010,Chinsali District Registration Office,Location/ZMB-P06-D001,CRVS_OFFICE
-ZMB-OFF-011,Kasama District Registration Office,Location/ZMB-P07-D001,CRVS_OFFICE
-ZMB-OFF-012,Solwezi District Registration Office,Location/ZMB-P08-D001,CRVS_OFFICE
-ZMB-OFF-013,Livingstone District Registration Office,Location/ZMB-P09-D001,CRVS_OFFICE
-ZMB-OFF-014,Choma District Registration Office,Location/ZMB-P09-D002,CRVS_OFFICE
-ZMB-OFF-015,Mongu District Registration Office,Location/ZMB-P10-D001,CRVS_OFFICE
-ZMB-OFF-016,Senanga District Registration Office,Location/ZMB-P10-D002,CRVS_OFFICE
-ZMB-OFF-017,Kasempa District Registration Office,Location/ZMB-P08-D002,CRVS_OFFICE
+MWI-OFF-001,Malawi National Registration Bureau (HQ),Location/MWD13,CRVS_OFFICE
+MWI-OFF-002,Chitipa District Registration Office,Location/MWD1,CRVS_OFFICE
+MWI-OFF-003,Karonga District Registration Office,Location/MWD2,CRVS_OFFICE
+MWI-OFF-004,Nkhatabay District Registration Office,Location/MWD3,CRVS_OFFICE
+MWI-OFF-005,Rumphi District Registration Office,Location/MWD4,CRVS_OFFICE
+MWI-OFF-006,Mzimba District Registration Office,Location/MWD5,CRVS_OFFICE
+MWI-OFF-007,Likoma District Registration Office,Location/MWD6,CRVS_OFFICE
+MWI-OFF-008,Mzuzu City District Registration Office,Location/MWD7,CRVS_OFFICE
+MWI-OFF-009,Kasungu District Registration Office,Location/MWD8,CRVS_OFFICE
+MWI-OFF-010,Nkhotakota District Registration Office,Location/MWD9,CRVS_OFFICE
+MWI-OFF-011,Ntchisi District Registration Office,Location/MWD10,CRVS_OFFICE
+MWI-OFF-012,Dowa District Registration Office,Location/MWD11,CRVS_OFFICE
+MWI-OFF-013,Salima District Registration Office,Location/MWD12,CRVS_OFFICE
+MWI-OFF-014,Lilongwe District Registration Office,Location/MWD13,CRVS_OFFICE
+MWI-OFF-015,Mchinji District Registration Office,Location/MWD14,CRVS_OFFICE
+MWI-OFF-016,Dedza District Registration Office,Location/MWD15,CRVS_OFFICE
+MWI-OFF-017,Ntcheu District Registration Office,Location/MWD16,CRVS_OFFICE
+MWI-OFF-018,Lilongwe City District Registration Office,Location/MWD17,CRVS_OFFICE
+MWI-OFF-019,Mangochi District Registration Office,Location/MWD18,CRVS_OFFICE
+MWI-OFF-020,Machinga District Registration Office,Location/MWD19,CRVS_OFFICE
+MWI-OFF-021,Zomba District Registration Office,Location/MWD20,CRVS_OFFICE
+MWI-OFF-022,Chiradzulu District Registration Office,Location/MWD21,CRVS_OFFICE
+MWI-OFF-023,Blantyre District Registration Office,Location/MWD22,CRVS_OFFICE
+MWI-OFF-024,Mwanza District Registration Office,Location/MWD23,CRVS_OFFICE
+MWI-OFF-025,Thyolo District Registration Office,Location/MWD24,CRVS_OFFICE
+MWI-OFF-026,Mulanje District Registration Office,Location/MWD25,CRVS_OFFICE
+MWI-OFF-027,Phalombe District Registration Office,Location/MWD26,CRVS_OFFICE
+MWI-OFF-028,Chikwawa District Registration Office,Location/MWD27,CRVS_OFFICE
+MWI-OFF-029,Nsanje District Registration Office,Location/MWD28,CRVS_OFFICE
+MWI-OFF-030,Balaka District Registration Office,Location/MWD29,CRVS_OFFICE
+MWI-OFF-031,Neno District Registration Office,Location/MWD30,CRVS_OFFICE
+MWI-OFF-032,Zomba City District Registration Office,Location/MWD31,CRVS_OFFICE
+MWI-OFF-033,Blantyre City District Registration Office,Location/MWD32,CRVS_OFFICE

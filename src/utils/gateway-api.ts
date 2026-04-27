@@ -123,5 +123,5 @@ export const fetchUserLocationHierarchy = async (
     variables: { userId },
     headers
   })
-  return res.data.getUser.primaryOffice.hierarchy.map(({ id }) => id)
+  return res.data.getUser.primaryOffice?.hierarchy?.map(({ id }) => id) ?? []
 }

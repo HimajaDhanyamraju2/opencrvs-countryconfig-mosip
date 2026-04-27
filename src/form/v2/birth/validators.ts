@@ -46,7 +46,7 @@ export const nationalIdValidator = (fieldId: string) => ({
   })
 })
 
-export const zambiaNameConfig = {
+export const malawiNameConfig = {
   name: {
     firstname: { required: true },
     surname: { required: true }

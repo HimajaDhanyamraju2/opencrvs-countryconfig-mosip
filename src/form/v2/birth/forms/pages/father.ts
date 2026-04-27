@@ -22,7 +22,7 @@ import {
 import { or, not } from '@opencrvs/toolkit/conditionals'
 import { emptyMessage } from '@countryconfig/form/v2/utils'
 import {
-  zambiaNameConfig,
+  malawiNameConfig,
   invalidNameValidator,
   nationalIdValidator
 } from '@countryconfig/form/v2/birth/validators'
@@ -125,7 +125,7 @@ export const father = defineFormPage({
         id: 'father.name',
         type: FieldType.NAME,
         required: true,
-        configuration: zambiaNameConfig,
+        configuration: malawiNameConfig,
         hideLabel: true,
         label: {
           defaultMessage: "Father's name",
@@ -272,7 +272,7 @@ export const father = defineFormPage({
           conditional: requireFatherDetails
         }
       ],
-      defaultValue: 'ZMB'
+      defaultValue: 'MWI'
     },
     connectToMOSIPIdReader(
       {
@@ -481,7 +481,7 @@ export const father = defineFormPage({
         )
       ],
       defaultValue: {
-        country: 'ZMB',
+        country: 'MWI',
         addressType: AddressType.DOMESTIC,
         administrativeArea: user('primaryOfficeId').locationLevel('district')
       },

@@ -53,7 +53,7 @@ exports[`User notification - Email > 2fa 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -108,7 +108,7 @@ exports[`User notification - Email > change-email-address 1`] = `
         Hello John,
     </p>
     <p>
-        You recently requested to change your email address for your Zambia CRS account.
+        You recently requested to change your email address for your Malawi CRS account.
     </p>
     <p>
         To confirm this change, use the code: <strong>654321</strong>
@@ -116,7 +116,7 @@ exports[`User notification - Email > change-email-address 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -171,7 +171,7 @@ exports[`User notification - Email > change-phone-number 1`] = `
         Hello John,
     </p>
     <p>
-        You recently requested to change your phone number for your Zambia CRS account.
+        You recently requested to change your phone number for your Malawi CRS account.
     </p>
     <p>
         To confirm this change, use the code: <strong>123456</strong>
@@ -179,7 +179,7 @@ exports[`User notification - Email > change-phone-number 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -234,7 +234,7 @@ exports[`User notification - Email > reset-password 1`] = `
         Hello John,
     </p>
     <p>
-        You recently requested to reset your password for your Zambia CRS account.
+        You recently requested to reset your password for your Malawi CRS account.
     </p>
     <p>
         To reset your password, use the code: <strong>112233</strong>
@@ -245,7 +245,7 @@ exports[`User notification - Email > reset-password 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -308,7 +308,7 @@ exports[`User notification - Email > reset-password-by-admin 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -363,7 +363,7 @@ exports[`User notification - Email > user-created 1`] = `
       alt="country_logo"
       style="max-height: 88px; max-width: 100%"
     />
-    <h1>Welcome to Zambia CRS</h1>
+    <h1>Welcome to Malawi CRS</h1>
     <p>Hello John,</p>
     <p>An account has been created for you with the following details:</p>
     <p>
@@ -372,7 +372,7 @@ exports[`User notification - Email > user-created 1`] = `
     </p>
     <p>
       Please click the link below to complete your account setup and start using
-      Zambia CRS.
+      Malawi CRS.
     </p>
 
     <div style="margin-top: 32px; margin-bottom: 32px">
@@ -381,7 +381,7 @@ exports[`User notification - Email > user-created 1`] = `
     <br />
     <p>
       Best regards, <br />
-      Zambia CRS Team
+      Malawi CRS Team
     </p>
   </body>
 </html>
@@ -444,7 +444,7 @@ exports[`User notification - Email > user-updated 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 
@@ -499,7 +499,7 @@ exports[`User notification - Email > username-reminder 1`] = `
         Hello John,
     </p>
     <p>
-        You recently requested a username reminder for your Zambia CRS account.
+        You recently requested a username reminder for your Malawi CRS account.
     </p>
     <p>
         Your username is: <strong>j.doe</strong>
@@ -507,7 +507,7 @@ exports[`User notification - Email > username-reminder 1`] = `
     </br>
     <p>
         Best regards, <br />
-        Zambia CRS Team
+        Malawi CRS Team
     </p>
 </body>
 

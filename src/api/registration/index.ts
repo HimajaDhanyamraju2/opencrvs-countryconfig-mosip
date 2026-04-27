@@ -121,13 +121,13 @@ const extractMosipAddress = (address: AddressFieldValue | undefined) => ({
       'Plot 4522'
   ),
   addressLine2: toMosipLangValue(
-    address?.streetLevelDetails?.residentialArea ?? 'Off Mumbwa Road'
+    address?.streetLevelDetails?.residentialArea ?? 'Area 47'
   ),
-  addressLine3: toMosipLangValue('Longacres'),
-  city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Lusaka'),
-  province: toMosipLangValue('Lusaka Province'),
-  region: toMosipLangValue('Lusaka District'),
-  zone: toMosipLangValue('Zambia')
+  addressLine3: toMosipLangValue('Kanengo'),
+  city: toMosipLangValue(address?.streetLevelDetails?.town ?? 'Lilongwe'),
+  province: toMosipLangValue('Central Region'),
+  region: toMosipLangValue('Lilongwe'),
+  zone: toMosipLangValue('Malawi')
 })
 
 /**

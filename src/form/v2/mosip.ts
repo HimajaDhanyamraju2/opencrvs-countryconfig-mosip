@@ -222,7 +222,7 @@ export const getMOSIPIntegrationFields = (
         description: {
           id: 'verified.status.description',
           defaultMessage:
-            "{value, select, authenticated {This identity has been successfully authenticated with the Zambia’s National ID System. To make edits, please remove the authentication first.} verified {This identity data has been successfully verified with the Zambia’s National ID System. Please note that their identity has not been authenticated using the individual's biometrics. To make edits, please remove the verification first.} pending {Identity pending verification with Zambia’s National ID system} failed {The identity data does not match an entry in Zambia’s National ID System} other {Invalid value}}",
+            '{value, select, authenticated {This identity has been successfully authenticated with the Malawi’s National ID System. To make edits, please remove the authentication first.} verified {This identity data has been successfully verified with the Malawi’s National ID System. Please note that their identity has not been authenticated using the individual’s biometrics. To make edits, please remove the verification first.} pending {Identity pending verification with Malawi’s National ID system} failed {The identity data does not match an entry in Malawi’s National ID System} other {Invalid value}}',
           description: 'Description text of the status'
         }
       },

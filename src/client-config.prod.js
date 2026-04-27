@@ -32,7 +32,7 @@
     MINIO_BUCKET: 'ocrvs',
     COUNTRY_CONFIG_URL: `${scheme}//countryconfig.${hostname}`,
     // Country code in uppercase ALPHA-3 format
-    COUNTRY: 'ZMB',
+    COUNTRY: 'MWI',
     LANGUAGES: 'en,fr',
     SENTRY: sentry,
     DASHBOARDS: [

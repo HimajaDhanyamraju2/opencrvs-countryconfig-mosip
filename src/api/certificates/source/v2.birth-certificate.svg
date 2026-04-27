@@ -52,7 +52,7 @@
         fill="#222222" />
       <text fill="#222222" xml:space="preserve" style="white-space: pre"
         font-family="Noto Sans" font-size="4.49316" font-weight="bold" letter-spacing="0.2em">
-        <tspan x="278.929" y="89.0554">ZAMBIA</tspan>
+        <tspan x="278.929" y="89.0554">MALAWI</tspan>
       </text>
     </g>
   {{/if}}
@@ -124,7 +124,7 @@
   {{#if $review}}
     <text fill="#222222" xml:space="preserve" style="white-space: pre" font-family="Noto Sans"
       font-size="7.76" font-weight="bold" letter-spacing="0px">
-      <tspan x="186.255" y="126.364">REPUBLIC OF ZAMBIA / REPUBLIQUE DE ZAMBIA</tspan>
+      <tspan x="186.255" y="126.364">REPUBLIC OF MALAWI / REPUBLIQUE DE MALAWI</tspan>
     </text>
   {{/if}}
   <text fill="#038E86" xml:space="preserve" style="white-space: pre" font-family="Noto Sans"

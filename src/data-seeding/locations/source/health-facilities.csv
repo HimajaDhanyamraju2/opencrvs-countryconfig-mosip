@@ -1,301 +1,97 @@
 id,name,partOf,locationType
-pXhz0PLiYZX,Chamakubi Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-di3U5u7F8Y3,Ibombo Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-B5LpoYehUfI,Chikobo Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-g42i3akwlpj,Chilochabalenje Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-FhCAve1Ndla,Chipeso Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-uhVtTq0ICIF,Chisamba Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-dhcU6eMvhRQ,Chitanda Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-xUFGW5vo7No,Golden Valley Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-h1YIvEZ6dla,Ipongo Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-VEhbknBaEOz,Itumbwe Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-sbFApO4who4,Kabangalala Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-DdG82TKHJl9,Kamaila Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-eEYycD4oleC,Kanwanjiba Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-wfrgYBT51M1,Kaparu Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-U9mqwYGtxbz,Kapila Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-NeNRxi0fu5m,Kapopo Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-TFzTMM5oaDD,Kayosha Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-TsWOcEzohYx,Keembe Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-xnToDJPNGP6,Makoka Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-okixaxAZHNC,Malambanyama Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-UCdIC6Zes0A,Malundu Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-KlwgbatKrXD,Mboshya Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-tA490zpfdaG,Mukashichimbwe Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-us8T9gyaOYW,Mulonda Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-BkVihZcIW8c,Mungule Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-Nw5x6uTYgJF,Muntemba Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-TcoKhDnIm8w,Musopelo Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-JJUb1CUEptb,Mwachisompola Demo Zone Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-j2BMk5tWYlm,Mwachisompola Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-TkQRVyc9gXO,Mwanjuni Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-wKJRSXJzO87,Mwelebi Keembe Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-gZzOMAPaGWo,Naluyanda Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-mde9quO59mj,Namayani Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-w5fXlHOnHJM,Namununga Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-M4e4R8Marao,Ntapwila Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-xJo05sbtKbm,Shifwankula Health Post,Location/ZMB-P01-D001,HEALTH_FACILITY
-ABOFImxcg03,Shimukuni Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-Zve7Ecm6Gq5,SR Brian Memorial Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-TJdMgSlkIHR,Twalumba Rural Health Centre,Location/ZMB-P01-D001,HEALTH_FACILITY
-NtzuCllVXfG,Bombwe Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-b6hKBhgGbPT,Chikonkomene Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-hTuMuK2i6dF,Chipembi Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-stQomg2T3lr,Chisamba Ranch Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-OK5pIbqh8AJ,Chisamba Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-d5HgpZoFDZ5,Kachele Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-WM145DSBK4l,Kanakantapa Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-n7EbzxgN3rB,Kasosolo Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-OxlLGLAONOk,Kawama Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-pWbJrQaU7nt,Lifwambula Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-dAbiROAW2Qq,Liteta District Hospital,Location/ZMB-P02-D001,HEALTH_FACILITY
-iMzTDZgyaJk,Liteta Hospital Affiliated Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-YX9HctYjj7r,Malombe Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-lx9EIGd5eo5,Momboshi Health post,Location/ZMB-P02-D001,HEALTH_FACILITY
-BOLneMMBJw9,Mulungushi Agro Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-ve8k5eTMnwF,Muswishi Rural Health Centre,Location/ZMB-P02-D001,HEALTH_FACILITY
-nfjLEcv9zhB,Mwantaya Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-dZK1x2CkZFw,Mwapula Health Post,Location/ZMB-P02-D001,HEALTH_FACILITY
-xZhQm57zS74,Chalilo Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-GYdpaONnIcF,Chipundu Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-mSskBSbOvyq,Chitambo District Hospital,Location/ZMB-P05-D002,HEALTH_FACILITY
-VCpLdlzT8Mw,Chitambo Hospital Affiliated Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-Vs2PN5spHxu,Gibson Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-YTEAv3ceBD5,Kafinda Health Post,Location/ZMB-P05-D002,HEALTH_FACILITY
-ZiLHXv99UoF,Katikulula Health Post,Location/ZMB-P05-D002,HEALTH_FACILITY
-ETF6T66OyQJ,Mapepala Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-vqDZuaD12cz,Mpelembe Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-cW0COgYvtJF,Muchinka Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-Zhm6q4SeKWF,Mulaushi Health Post,Location/ZMB-P05-D002,HEALTH_FACILITY
-eyX5CfbwDbN,Nakatambo Rural Health Centre,Location/ZMB-P05-D002,HEALTH_FACILITY
-a0tulQPScYX,Reuben Health Post,Location/ZMB-P05-D002,HEALTH_FACILITY
-ql3xeEl9qyG,YoramuMwanje Health Post,Location/ZMB-P05-D002,HEALTH_FACILITY
-u0Kxxp8uuwQ,Banamwaze Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-zjDc72AVjwY,Basanga Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-pkREAlK2S2i,Bushinga Rural Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-huGZsnkz4bQ,Buunga Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-OzL8SVoMmRx,Chishila Rural Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-Nn2Nt8mXWHE,Itezhi-Tezhi District Hospital,Location/ZMB-P06-D001,HEALTH_FACILITY
-RBlIkfACTLh,Itumbi Rural Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-WBlI9w8DKGN,Kaanzwa Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-aZKtSEmVant,Lubanda Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-wSn3GyFUOtq,Luubwe Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-nTJdkERDwUT,Makuzu Rurral Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-sIQGY7SP2q2,Masasabi Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-HZcbuTeLHyL,MasemuUrban Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-fy3TOuJ082I,Mbila Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-O5zH5XTuzzq,Mutenda Rural Health Post,Location/ZMB-P06-D001,HEALTH_FACILITY
-A6hsoKzGQh5,Muunga Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-gGEpfxID3u0,Nachishila Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-yCUgTKpGGoi,Nansenga Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-rm5rfKGTRRX,Nanzhila Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-Ns7t5cAsY4q,Ngoma Rural Health Centre,Location/ZMB-P06-D001,HEALTH_FACILITY
-FrOn8lcbzPb,Balmoral Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-Ufr8nYcPCQQ,Chilanga Hospice,Location/ZMB-P01-D003,HEALTH_FACILITY
-Uhkl6NC5yIc,Chilanga Urban Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-k2kKFAEjPhu,Human ServiTrust Hospice,Location/ZMB-P01-D003,HEALTH_FACILITY
-xwUD5u7CKKq,Kazimva Rural Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-XWbUIccnUzo,Kris Katumba Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-dKj1T229tVI,MaaHealth Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-Bvp6RBPo62N,Makeni_Konga Rural Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-HO8d6yM5ItR,Mt Eugenia Hospital,Location/ZMB-P01-D003,HEALTH_FACILITY
-XpKKx7Zqdub,Mt Makulu Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-qnBP9Wm3MK7,Mt Makulu Urban Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-hgcHEArb3st,Munyeu Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-edP6CRRrAyN,Mwembeshi Prisons Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-uZFREFe5Vds,Mwembeshi Rural Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-Cunzgs27VkS,Paramilitary Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-bOo3kXTQfvT,Sekelela Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-x1Tfu2HRQUD,Victoria Clinic,Location/ZMB-P01-D003,HEALTH_FACILITY
-sfSGuVk954T,Zambia Army Apollo Rural Health Centre,Location/ZMB-P01-D003,HEALTH_FACILITY
-oqBLYbMJXcg,Zambia Helpers Society Hospital,Location/ZMB-P01-D003,HEALTH_FACILITY
-QwiQcWknlhR,ZNS-BB Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-LPzSO1ZEvrD,ZNS-LDB Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-eChTvZQNbEz,ZNS-Safari Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-zoVWIb9J1wh,ZNS-Sopelo Health Post,Location/ZMB-P01-D003,HEALTH_FACILITY
-oABTNoRnphB,Chibende Health Post,Location/ZMB-P02-D002,HEALTH_FACILITY
-WVR7X7U5l1J,Chikanzaya Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-LlrP8fstjfM,Chipepo Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-wPGo3hSQmS4,Hachipilika Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-H3Ri3M3nenv,Ibbwemunyama Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-RMTYyPy81zw,Jamba Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-nOBgDJKBTs4,Kapululira Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-gP8ovsHKPwc,Lumbembe Health Post,Location/ZMB-P02-D002,HEALTH_FACILITY
-HGoPoZDjm54,Lusitu Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-XqKkJUutg8T,Mtendere Mission Hospital,Location/ZMB-P02-D002,HEALTH_FACILITY
-Hkue6N1TNBl,Mtendere Mission Hospital Affiliated Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-MKsK3cS0quF,Nabbanda Health Post,Location/ZMB-P02-D002,HEALTH_FACILITY
-LLWjjVQMpGH,Sikoongo Rural Health Centre,Location/ZMB-P02-D002,HEALTH_FACILITY
-gNLLh1Eggai,Chainda Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-VEAzY3nDJxx,Chalimbana Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-Tkf1vX1FHZi,Chalyabale Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-vTMEikVUg29,Chaminuka Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-q6BIpT1GCNG,Chansu Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-Ux2wg0JkYbJ,Chikumbi Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-mGFVfHhZpIH,Chongwe District Hospital,Location/ZMB-P04-D001,HEALTH_FACILITY
-DvK7XzkHzr1,Chongwe Referral Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-peVc3YE5reG,Ellensdale Farm Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-SnjCsADRyRt,Kabeleka Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-dVYbTsxcnWa,Kampekete Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-OQvNUldaonL,Kanakantapa Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-oUZLRfhpgB2,Kapete Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-eamcYIB10vj,Kasenga Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-UcZRkyXRxsK,Kasisi Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-xI2yusW1ANd,Katoba Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-VTVfBgVp2HK,Lwiimba Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-QByuNQ95b9q,Mikango Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-a4svawAnU2r,Mpango Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-c6JKhyMVnTL,Mulalika Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-jr6BXwjvKJz,MutamiHealth Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-y8B6xdrDsbT,Mwalumina Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-YVjAGMkZrvm,Nachitete Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-kfIZWsFCXx7,Nchute Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-nJyQffmuyIv,Ngwe Rere Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-cY8oU70zgc2,Ngwe Rere Main Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-Ons9LFn8qDM,Palabana Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-sHnu7v8g1dl,Shiyala Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-FgM7TeHrSiJ,Water FallsRural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-Dzuvv20pM02,ZAF 71 Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-fKWbIcOontB,ZAF Base_Chongwe Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-SGwFAtGFG5W,Zasti Rural Health Centre,Location/ZMB-P04-D001,HEALTH_FACILITY
-YUfAZavZy7W,ZNS Airport Health Post,Location/ZMB-P04-D001,HEALTH_FACILITY
-ujrW5Mgbzlg,ZNS Chongwe Clinic,Location/ZMB-P04-D001,HEALTH_FACILITY
-pgh8kxpUHJU,Chanyanya Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-OkiRXQpHse1,Chiawa Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-zcYphl5V9dk,Chikoka Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-WSCLQdy2T0z,Chikupi Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-y4IFOiyhzbx,Chipapa Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-vLlhYmwF0ci,Chisakila Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-vYBdT4suNfM,Chisankane Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-a7JqhqXMXuq,Estate Urban Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-Pbq94it7Ea5,Kabweza Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-gdYjm723x8Q,Kafue District Hospital,Location/ZMB-P07-D001,HEALTH_FACILITY
-vnui93eZUl8,Kafue East Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-gvTcEpgJfuZ,Kafue Mission Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-pvoo4jsUPph,Kambale Rural Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-j9tfO9PRlFV,Lukolongo Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-ehhM0FmvKRa,Mtendere Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-WnmrKYPWi2Y,MugurameHealth Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-YgA9AKH7WmF,Mungu Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-PBWWSJDskS5,Nangongwe OPD/Maternity Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-hazGJwKHigL,Old Kabweza Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-ujYjZtiIiSR,Railway GRZ Urban Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-BiIWZnHXGbC,Shifa shikoswe Health Centre,Location/ZMB-P07-D001,HEALTH_FACILITY
-XuptJowZoJf,Shimabala Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-rb5TICRlYdH,ZNS Kafue Health Post,Location/ZMB-P07-D001,HEALTH_FACILITY
-aEXcyG2MVNB,Embe Rural Health Centre,Location/ZMB-P01-D004,HEALTH_FACILITY
-o5NAXpTNizr,Chipete Rural Health Centre,Location/ZMB-P01-D004,HEALTH_FACILITY
-y8NVOhsvCaK,Fikombo HP,Location/ZMB-P01-D004,HEALTH_FACILITY
-T0mKBlh3G9h,Kalasa Kando HP,Location/ZMB-P01-D004,HEALTH_FACILITY
-uFdT61U1OsA,Kasomalwela Rural Health Centre,Location/ZMB-P01-D004,HEALTH_FACILITY
-mpIb08vMOAp,KundamfumuRural Health Centre,Location/ZMB-P01-D004,HEALTH_FACILITY
-U8TvVHIWTRw,Lukola Rural Health Centre,Location/ZMB-P01-D004,HEALTH_FACILITY
-oHlcVn3rdb1,Chienge District Hospital,Location/ZMB-P02-D003,HEALTH_FACILITY
-QDqivIRiSaQ,Chipungu Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-AGpIcsdu6xf,Kabole Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-CmrN87EOlBQ,Kabwe Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-kU5YjYgVbTZ,Kalembwe Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-RkntOU90ZHr,Kapako Health Post (Chienge),Location/ZMB-P02-D003,HEALTH_FACILITY
-jfcYt0tnsTx,Lambwe Chikwama Health Post,Location/ZMB-P02-D003,HEALTH_FACILITY
-NI1tAcnIfAT,Lambwe Chomba Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-i11VXdZmkhP,Lunchinda Health Post,Location/ZMB-P02-D003,HEALTH_FACILITY
-tr9eo7P3f5L,Mukunta Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-Bz7oIBxRTU1,Mwabu Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-EIbwCt3jZHv,lu Puta Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-x8BQtQpWK9h,Sambula Rural Health Centre,Location/ZMB-P02-D003,HEALTH_FACILITY
-FVK5bEf4nEV,Chibuye Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-aOr3jMbPcHD,Chimanda Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-LjFfWIgO7A0,Chishi Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-WRRGxsFOxv2,Kasaba Hospital Affiliated Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-kkvRKFactre,Kasaba Mission Hospital,Location/ZMB-P05-D001,HEALTH_FACILITY
-pzwJl6Eit3A,Kasuba Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-gq2WZLfPWno,Lubwe Hospital Affiliated Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-tYADm8Gxa2U,Lubwe Mission Hospital,Location/ZMB-P05-D001,HEALTH_FACILITY
-FgMoRKWE7lY,Mbabala Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-fFaDMvpDDSG,Miponda Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-W2IXIkG5zFH,Mundubi Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-ABcUyezNjiu,Mwansakombe Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-JPvk3to3lLW,Nambale Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-SNB73xtSc9H,Shikamushile Rural Health Centre,Location/ZMB-P05-D001,HEALTH_FACILITY
-cY0ExeKU9zM,Chinshinki Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-Na48iwprcRj,Chipili Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-e84HjdMPuOs,Chisheta Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-KeUh9W868Kb,Kabongo Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-EmpfjY6bRII,Kalundu Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-BqMR1kOfeZa,Kamami Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-MamVEbk3svG,Kaoma Makasa Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-NegKu98wuBb,Luminu Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-SPzrFtzD83O,Lupososhi Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-DUOUmsjKjPy,MimbuluHealth Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-Z2NGkmiOKz0,Mukabi Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-DGTbYecueeB,Mukanga Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-y5g5UOIekbe,Mukonshi Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-krc82I1RBcF,Mulunda Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-EIcZNbwIUP7,Mupeta Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-MLxowtKhnOt,Musalango Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-ZOchRWrgsdN,Musele Health Post,Location/ZMB-P08-D001,HEALTH_FACILITY
-JQxmMJop7dI,Mutipula Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-U1cB77Ro8w0,Mwenda Rural Health Centre,Location/ZMB-P08-D001,HEALTH_FACILITY
-thxSZm62CbT,Buli Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-UMFJpvlLVTn,Chama District Hospital,Location/ZMB-P01-D002,HEALTH_FACILITY
-bL6DCojCmfh,Chama Hospital Affiliated Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-ttOUWZVpeZQ,Chibale Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-bfyQToVApYb,Chifunda Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-UGhnk7JcnYM,Chigoma Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-Ye4TJDnlpJb,Chikwa Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-f9B913DB8K0,Chilubanama Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-kTiNWJDxN9u,Chitukula Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-buZB7Fcmo7S,Fulaza Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-UZLDUEhHb1u,Kalovya Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-NjEmIfrAVti,Kambombo Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-SHiENiDUTrE,Kambwili Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-myd7zyw1ocl,Kamfutu Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-mhkLgoddtIt,Kanyelele Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-rK7PWlnBaRS,Kapichilasenga Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-j2T2l15fqZC,Kapilingizya Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-CJ0nbEcseSR,Kasela Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-jiy3fKnMFRg,Lundu Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-uwXHGDzulWz,Manga Mission Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-Rlz618EA32z,Mapamba Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-Dhul2UUAQpp,Mphyanakunda Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-gWHlelRdxII,Mulilo Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-OC9Wb7txB6i,Mwalala Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-FUf4B6D0a28,Mwila Health Post,Location/ZMB-P01-D002,HEALTH_FACILITY
-fG4h9MfxAyM,Nthonkho Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-Xn1oEbyBNhr,Pondo Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-JZd2PkjXXj8,Sitwe Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-PVPj4sROxfb,Tembwe Rural Health Centre,Location/ZMB-P01-D002,HEALTH_FACILITY
-oEAPngMSIE3,Chinsali District Hospital,Location/ZMB-P03-D001,HEALTH_FACILITY
-C513dA5CNF8,Chinsali Hospital Affiliated Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-DTPBXVCb77t,Chunga Rural Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-PbN0L5TMEcj,Kalela Health Post,Location/ZMB-P03-D001,HEALTH_FACILITY
-wqCWnKvPBkJ,Kalwala Health Post,Location/ZMB-P03-D001,HEALTH_FACILITY
-ZVmjD9okMQ9,Lubwa Rural Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-tjwK61zIZv8,Mulilansolo Rural Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-XzYfwBZwFYN,Mundu Rural Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-oLOvXNp9M9Y,Munsanya Health Post,Location/ZMB-P03-D001,HEALTH_FACILITY
-Eul4eDttk4G,Nambuluma PoliRural Health Centre,Location/ZMB-P03-D001,HEALTH_FACILITY
-ZMT1eFtJe9a,Nkula Health Post,Location/ZMB-P03-D001,HEALTH_FACILITY
-kg7wXu1ZTPM,Nkweto Health Post,Location/ZMB-P03-D001,HEALTH_FACILITY
-vIGoufkybpb,Isoka District Hospital,Location/ZMB-P09-D001,HEALTH_FACILITY
-dsXYVuk5n4T,Kafwimbi Rural Health Centre,Location/ZMB-P09-D001,HEALTH_FACILITY
-qFkrH69xqXI,Kalungu Rural Health Centre,Location/ZMB-P09-D001,HEALTH_FACILITY
-bvra9QJy0j4,Kampumbu Rural Health Centre,Location/ZMB-P09-D001,HEALTH_FACILITY
-Ie5sdEH880a,Kantenshya Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-FbpxGrsjqRr,Kapililonga Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-y6jKNYQ1XeM,Kasoka Urban Health Centre,Location/ZMB-P09-D001,HEALTH_FACILITY
-qQUP9stDWwF,Katyetye Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-ajqMIy7azi7,Lualizi Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-K4QxEWjcOQR,Mwenekombe Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-OcfkA1OrY8W,Nzoche Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-vMxk2K8liIw,Sansamwenje Health Post,Location/ZMB-P09-D001,HEALTH_FACILITY
-KtHVXgCJdRm,Chalabesa Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-uByLHFIS52p,Chikakala Health Post,Location/ZMB-P10-D001,HEALTH_FACILITY
-TJzkN2eAAZu,Chinkobo Health Post,Location/ZMB-P10-D001,HEALTH_FACILITY
-bQuM5aHZsxx,Kabinga Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-TsPgbyuQUaj,Kaonda Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-BoToxyoSPZg,Kopa Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-uIe1oR9QhLH,Luchembe Health Post,Location/ZMB-P10-D001,HEALTH_FACILITY
-Nyk45dHMpsl,Mapoma Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-HhrumkQRmrS,Mbati Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
-coBD5bAkl3u,Mpepo Rural Health Centre,Location/ZMB-P10-D001,HEALTH_FACILITY
+XAVydk8BnoQ,Chitipa District Hospital,Location/MWD1,HEALTH_FACILITY
+Y5Vm6IxjSIV,Chitipa Health Centre,Location/MWD1,HEALTH_FACILITY
+HK3irhKf9Fp,Chitipa Community Health Post,Location/MWD1,HEALTH_FACILITY
+FInCHzQeFF3,Karonga District Hospital,Location/MWD2,HEALTH_FACILITY
+AgSHPNV4Wvd,Karonga Health Centre,Location/MWD2,HEALTH_FACILITY
+EWyz6NsIlh3,Karonga Community Health Post,Location/MWD2,HEALTH_FACILITY
+wdBmJOV338N,Nkhatabay District Hospital,Location/MWD3,HEALTH_FACILITY
+cXK2TYn8NIB,Nkhatabay Health Centre,Location/MWD3,HEALTH_FACILITY
+H7BfVg6SiP9,Nkhatabay Community Health Post,Location/MWD3,HEALTH_FACILITY
+la9TD1kVVor,Rumphi District Hospital,Location/MWD4,HEALTH_FACILITY
+QLZHzzi22gT,Rumphi Health Centre,Location/MWD4,HEALTH_FACILITY
+xpzOyQ7phPY,Rumphi Community Health Post,Location/MWD4,HEALTH_FACILITY
+vjzLvOAKNBa,Mzimba District Hospital,Location/MWD5,HEALTH_FACILITY
+FVQSZRJb1dp,Mzimba Health Centre,Location/MWD5,HEALTH_FACILITY
+GapAPMk6EYz,Mzimba Community Health Post,Location/MWD5,HEALTH_FACILITY
+gV27GXPrKZD,Likoma District Hospital,Location/MWD6,HEALTH_FACILITY
+xTHTkOd2cGV,Likoma Health Centre,Location/MWD6,HEALTH_FACILITY
+E4AXvgqXYP0,Likoma Community Health Post,Location/MWD6,HEALTH_FACILITY
+zNygnKnX3Sz,Mzuzu City District Hospital,Location/MWD7,HEALTH_FACILITY
+cugoLHP00Xx,Mzuzu City Health Centre,Location/MWD7,HEALTH_FACILITY
+hbVKslqzG49,Mzuzu City Community Health Post,Location/MWD7,HEALTH_FACILITY
+HFJ4HLQugCl,Kasungu District Hospital,Location/MWD8,HEALTH_FACILITY
+izKfyPe9vAV,Kasungu Health Centre,Location/MWD8,HEALTH_FACILITY
+FSDhtOZvwyr,Kasungu Community Health Post,Location/MWD8,HEALTH_FACILITY
+Zb0uXGBwYYw,Nkhotakota District Hospital,Location/MWD9,HEALTH_FACILITY
+ndm6NpTDwUS,Nkhotakota Health Centre,Location/MWD9,HEALTH_FACILITY
+b7qRnYCHWUg,Nkhotakota Community Health Post,Location/MWD9,HEALTH_FACILITY
+bhf588n3XzN,Ntchisi District Hospital,Location/MWD10,HEALTH_FACILITY
+DK14WmvxmbP,Ntchisi Health Centre,Location/MWD10,HEALTH_FACILITY
+MtMkH6FB9Vv,Ntchisi Community Health Post,Location/MWD10,HEALTH_FACILITY
+dALOl66F1UB,Dowa District Hospital,Location/MWD11,HEALTH_FACILITY
+SJcc9t13N5C,Dowa Health Centre,Location/MWD11,HEALTH_FACILITY
+yOAjnrn3btz,Dowa Community Health Post,Location/MWD11,HEALTH_FACILITY
+Pmq3eeRoxxX,Salima District Hospital,Location/MWD12,HEALTH_FACILITY
+cNfxox9lujr,Salima Health Centre,Location/MWD12,HEALTH_FACILITY
+WOWijdbRpaz,Salima Community Health Post,Location/MWD12,HEALTH_FACILITY
+ARPfdeCauYK,Lilongwe District Hospital,Location/MWD13,HEALTH_FACILITY
+fBEgbPJM3XF,Lilongwe Health Centre,Location/MWD13,HEALTH_FACILITY
+hejxcSVcLr7,Lilongwe Community Health Post,Location/MWD13,HEALTH_FACILITY
+RPlgo2zgVbd,Mchinji District Hospital,Location/MWD14,HEALTH_FACILITY
+tkSQ8ZaqtLX,Mchinji Health Centre,Location/MWD14,HEALTH_FACILITY
+CjxnfSUMU92,Mchinji Community Health Post,Location/MWD14,HEALTH_FACILITY
+pjdusyskDtk,Dedza District Hospital,Location/MWD15,HEALTH_FACILITY
+LwDQ3t5UVoT,Dedza Health Centre,Location/MWD15,HEALTH_FACILITY
+ZnBUXLcnjin,Dedza Community Health Post,Location/MWD15,HEALTH_FACILITY
+R2YcP06C9hi,Ntcheu District Hospital,Location/MWD16,HEALTH_FACILITY
+DLEw1iZcYVV,Ntcheu Health Centre,Location/MWD16,HEALTH_FACILITY
+fqqylHjhh3Q,Ntcheu Community Health Post,Location/MWD16,HEALTH_FACILITY
+rrndem3Cnzz,Lilongwe City District Hospital,Location/MWD17,HEALTH_FACILITY
+RP4XdD3qlah,Lilongwe City Health Centre,Location/MWD17,HEALTH_FACILITY
+u3z48fdzbAH,Lilongwe City Community Health Post,Location/MWD17,HEALTH_FACILITY
+dQqUh1a7QZn,Mangochi District Hospital,Location/MWD18,HEALTH_FACILITY
+jNhhCqEDM2s,Mangochi Health Centre,Location/MWD18,HEALTH_FACILITY
+Wv7QOo1KXF0,Mangochi Community Health Post,Location/MWD18,HEALTH_FACILITY
+hG2WIptBVR5,Machinga District Hospital,Location/MWD19,HEALTH_FACILITY
+ff6NBTUAPgr,Machinga Health Centre,Location/MWD19,HEALTH_FACILITY
+hk0wmEMnVTx,Machinga Community Health Post,Location/MWD19,HEALTH_FACILITY
+JIzXoAaD49C,Zomba District Hospital,Location/MWD20,HEALTH_FACILITY
+tJmgSjch2De,Zomba Health Centre,Location/MWD20,HEALTH_FACILITY
+cgfJaQOXpUO,Zomba Community Health Post,Location/MWD20,HEALTH_FACILITY
+pmb1ifLU9w6,Chiradzulu District Hospital,Location/MWD21,HEALTH_FACILITY
+IvhxIa42vzt,Chiradzulu Health Centre,Location/MWD21,HEALTH_FACILITY
+hnFeNIYdFWy,Chiradzulu Community Health Post,Location/MWD21,HEALTH_FACILITY
+mjT4yHLSTLy,Blantyre District Hospital,Location/MWD22,HEALTH_FACILITY
+pMwnfiQrxt3,Blantyre Health Centre,Location/MWD22,HEALTH_FACILITY
+ShZwmd6KYDl,Blantyre Community Health Post,Location/MWD22,HEALTH_FACILITY
+CGCyFH6I4jz,Mwanza District Hospital,Location/MWD23,HEALTH_FACILITY
+arysIEF0m4B,Mwanza Health Centre,Location/MWD23,HEALTH_FACILITY
+AEAODIdqM8V,Mwanza Community Health Post,Location/MWD23,HEALTH_FACILITY
+wS2KEdF7EAH,Thyolo District Hospital,Location/MWD24,HEALTH_FACILITY
+wSDS6jAnzJi,Thyolo Health Centre,Location/MWD24,HEALTH_FACILITY
+hEBGLXBo0PV,Thyolo Community Health Post,Location/MWD24,HEALTH_FACILITY
+F9bNqUB51QT,Mulanje District Hospital,Location/MWD25,HEALTH_FACILITY
+uRwKeJ08ZbA,Mulanje Health Centre,Location/MWD25,HEALTH_FACILITY
+ZNt71SeNLDW,Mulanje Community Health Post,Location/MWD25,HEALTH_FACILITY
+BcnVsHkt8gE,Phalombe District Hospital,Location/MWD26,HEALTH_FACILITY
+wjE8McCHUiL,Phalombe Health Centre,Location/MWD26,HEALTH_FACILITY
+Rdv3BwKmDZP,Phalombe Community Health Post,Location/MWD26,HEALTH_FACILITY
+gixrpPz3Rsm,Chikwawa District Hospital,Location/MWD27,HEALTH_FACILITY
+ITdQ41MYKvY,Chikwawa Health Centre,Location/MWD27,HEALTH_FACILITY
+YEI7exy4ti7,Chikwawa Community Health Post,Location/MWD27,HEALTH_FACILITY
+EX6LJESvov4,Nsanje District Hospital,Location/MWD28,HEALTH_FACILITY
+m1HcCTce823,Nsanje Health Centre,Location/MWD28,HEALTH_FACILITY
+nsvtkQP8sM7,Nsanje Community Health Post,Location/MWD28,HEALTH_FACILITY
+Pc5ADoQhWHU,Balaka District Hospital,Location/MWD29,HEALTH_FACILITY
+PP2YLHshued,Balaka Health Centre,Location/MWD29,HEALTH_FACILITY
+LPuS64J33sI,Balaka Community Health Post,Location/MWD29,HEALTH_FACILITY
+mW4bXWZubLn,Neno District Hospital,Location/MWD30,HEALTH_FACILITY
+IOEzYtPvH5w,Neno Health Centre,Location/MWD30,HEALTH_FACILITY
+u8GyBiXeece,Neno Community Health Post,Location/MWD30,HEALTH_FACILITY
+CjwneLELt6R,Zomba City District Hospital,Location/MWD31,HEALTH_FACILITY
+xW0Q78cOJ9S,Zomba City Health Centre,Location/MWD31,HEALTH_FACILITY
+M7DnqJtJe20,Zomba City Community Health Post,Location/MWD31,HEALTH_FACILITY
+vOy38CaZI0L,Blantyre City District Hospital,Location/MWD32,HEALTH_FACILITY
+I1HPdEFb8vQ,Blantyre City Health Centre,Location/MWD32,HEALTH_FACILITY
+n71pzkTM3Xp,Blantyre City Community Health Post,Location/MWD32,HEALTH_FACILITY
